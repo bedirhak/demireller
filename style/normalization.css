@@ -1,15 +1,15 @@
-@import url(/style/settings.css);
+@import url(settings.css);
 @import url(homepage.css);
-@import url(/style/about.css);
-@import url(/style/history.css);
-@import url(/style/quality.css);
-@import url(/style/worldWide.css);
-@import url(/style/mafsalIstavrozlar.css);
-@import url(/style/kardanmiller.css);
-@import url(/style/traktor.css);
-@import url(/style/hotCold.css);
-@import url(/style/catalog.css);
-@import url(/style/contact.css);
+@import url(about.css);
+@import url(history.css);
+@import url(quality.css);
+@import url(worldWide.css);
+@import url(mafsalIstavrozlar.css);
+@import url(kardanmiller.css);
+@import url(traktor.css);
+@import url(hotCold.css);
+@import url(catalog.css);
+@import url(contact.css);
 
 *,
 div,
