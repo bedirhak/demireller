@@ -1,0 +1,30 @@
+@import url(/style/settings.css);
+@import url(/style/homepage.css);
+@import url(/style/about.css);
+@import url(/style/history.css);
+@import url(/style/quality.css);
+@import url(/style/worldWide.css);
+@import url(/style/mafsalIstavrozlar.css);
+@import url(/style/kardanmiller.css);
+@import url(/style/traktor.css);
+@import url(/style/hotCold.css);
+@import url(/style/catalog.css);
+@import url(/style/contact.css);
+
+*,
+div,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}

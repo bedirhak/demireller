@@ -1,0 +1,65 @@
+.dk-about .slider-message {
+  text-align: left;
+}
+
+.dk-about-text {
+  width: 1200px;
+  margin: auto;
+}
+
+.dk-about-text-image {
+  display: flex;
+  gap: 50px;
+}
+
+.dk-about-paragraph {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #aaaaaa;
+}
+
+.dk-about-image-part p {
+  color: #aaaaaa;
+  font-size: 11px;
+  text-align: center;
+}
+
+.dk-about-image img {
+  width: 330px;
+  display: inline-block;
+  margin-bottom: 5px;
+  border: 5px solid #eee9eb;
+}
+
+@media only screen and (max-width: 1200px) {
+  .dk-about-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .dk-about-text {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .dk-about-text-image {
+    flex-direction: column-reverse;
+    gap: 25px;
+  }
+
+  .dk-about-image-part p {
+    font-size: 14px;
+  }
+
+  .dk-about-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .dk-about-image img {
+    width: 96%;
+  }
+}

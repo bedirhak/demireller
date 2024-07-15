@@ -1,0 +1,70 @@
+.dk-catalog-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.dk-catalog-download-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  max-height: 200px;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-top: 1px dashed var(--main-gray);
+  border-bottom: 1px dashed var(--main-gray);
+  padding: 10px 0;
+}
+
+.dk-margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.dk-catalog-download-container h5 {
+  width: 400px;
+  color: var(--main-gray);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.dk-catalog-download-container a {
+  color: var(--main-gray);
+  font-size: 20px;
+}
+
+.dk-catalog-download-container img {
+  max-height: 100px;
+}
+
+@media (max-width: 1100px) {
+  .dk-catalog-container {
+    width: 100%;
+  }
+
+  .dk-catalog-download-container {
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .dk-catalog-download-container h5 {
+    width: unset;
+  }
+}
+
+@media (max-width: 500px) {
+  .dk-catalog-container .dk-mafsal-title {
+    width: 80%;
+    margin: 0 auto 25px auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .dk-catalog-download-container {
+    padding: 25px;
+    max-height: unset;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

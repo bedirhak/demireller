@@ -1,0 +1,30 @@
+.dk-world-wide .slider-message {
+  text-align: left;
+}
+
+.dk-world-wide-text {
+  width: 1200px;
+  max-width: 96%;
+  margin: auto;
+}
+
+.dk-world-wide-paragraph {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #aaaaaa;
+}
+
+.dk-world-wide .dk-single-banner {
+  background-image: url(../assets/images/worldWide/worldWideBanner.png);
+}
+
+.dk-world-wide-image {
+  width: 100%;
+  border: 5px solid #eee9eb;
+  border-radius: 5px;
+  margin-bottom: 50px;
+
+  img {
+    width: 100%;
+  }
+}

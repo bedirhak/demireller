@@ -1,0 +1,27 @@
+.dk-hot-cold-slider-container > p {
+  width: 55%;
+}
+
+.dk-hot-cold-slider-container {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #aaaaaa;
+}
+
+.dk-hot-cold-slider-container > div {
+  width: 50%;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 750px) {
+  .dk-hot-cold-slider-container > div {
+    width: 80%;
+    float: unset;
+    margin: 0 auto 15px auto;
+  }
+
+  .dk-hot-cold-slider-container {
+    text-align: center;
+  }
+}

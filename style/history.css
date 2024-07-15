@@ -1,0 +1,187 @@
+.dk-history .slider-message {
+  text-align: left;
+}
+
+.dk-history-main-container {
+  width: 1200px;
+  margin: auto;
+  color: var(--main-gray);
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.dk-history-main-container img {
+  border: 5px solid #eee9eb;
+  border-radius: 5px;
+}
+
+.dk-flex {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.dk-seventies img {
+  display: inline-block;
+  width: 20%;
+}
+
+.dk-sixties > p {
+  width: 70%;
+}
+
+.dk-sixties .dk-history-image-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  width: 15%;
+  text-align: center;
+}
+
+.dk-sixties .dk-history-image-container:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  width: 25%;
+  text-align: center;
+}
+
+.dk-sixties .dk-history-image-container div {
+  height: 85%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.dk-sixties .dk-history-image-container div img {
+  height: 100%;
+  width: 100%;
+}
+
+.dk-history-90 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dk-history-90-images {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.dk-history-90-images > div {
+  width: 25%;
+}
+
+.dk-history-90-images > div > img {
+  width: 100%;
+}
+
+.dk-history-90-images > div > h5 {
+  width: 85%;
+  font-weight: normal;
+  margin: 5px auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dk-history-98 {
+  h5 {
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.dk-history-logo {
+  width: 5% !important;
+  border: none !important;
+  min-width: 50px;
+}
+
+.dk-history-07 .dk-history-logo {
+  width: 10% !important;
+  min-width: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .dk-history-main-container {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .dk-sixties > p {
+    width: unset;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .dk-history-main-container {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .dk-history-main-container > div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dk-history-98 {
+    img {
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .dk-history-main-container .dk-seventies img {
+    width: 50%;
+  }
+
+  .dk-sixties .dk-history-image-container {
+    width: 40% !important;
+  }
+
+  .dk-history-90-images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dk-history-90-images > div {
+    width: 50%;
+
+    img {
+      width: 100% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .dk-history-main-container {
+    width: 96%;
+    font-size: 16px;
+  }
+
+  .dk-sixties .dk-history-image-container {
+    width: 75% !important;
+  }
+
+  .dk-history-90-images > div {
+    width: 75%;
+  }
+
+  .dk-history-98 {
+    img {
+      width: 75% !important;
+    }
+  }
+}

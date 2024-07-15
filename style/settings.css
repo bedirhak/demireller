@@ -1,0 +1,13 @@
+:root {
+  --main-blue: #1893ce;
+  --main-gray: #979c96;
+}
+
+.dk-single-image-banner {
+  margin-bottom: 50px !important;
+  height: auto;
+}
+
+.dk-single-image-banner .carousel-inner {
+  height: 75vh;
+}

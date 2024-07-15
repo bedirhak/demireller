@@ -1,0 +1,762 @@
+/* Header */
+
+/*Menü fixed*/
+
+.dk-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 9999;
+  -webkit-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.35);
+}
+
+.dk-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 75px 15px 75px;
+}
+
+.dk-header > .logo {
+  width: 400px;
+}
+
+.dk-header > .logo img {
+  width: 100%;
+}
+
+.dk-header .languages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.dk-header .languages-icon i {
+  font-size: 20px;
+  color: gray;
+}
+
+.dk-header .languages-list li {
+  list-style-type: none;
+}
+
+.dk-nav {
+  padding: 0;
+  background-color: var(--main-blue) !important;
+  padding: 0px 15%;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 20px;
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: var(--main-blue);
+}
+
+.dropdown-menu {
+  padding: 0 !important;
+}
+
+/* Slider */
+
+.carousel.slide {
+  margin-bottom: 80px;
+}
+
+.carousel-inner {
+  height: 70vh;
+}
+
+.carousel-item {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item:nth-of-type(1) {
+  background-image: url(../assets/images/homepage/slider1.jpg);
+}
+
+.carousel-item:nth-of-type(2) {
+  background-image: url(../assets/images/homepage/slider2.jpg);
+}
+
+.carousel-item:nth-of-type(3) {
+  background-image: url(../assets/images/homepage/slider3.jpg);
+}
+
+.carousel-item:nth-of-type(4) {
+  background-image: url(../assets/images/homepage/slider4.jpg);
+}
+
+.carousel-control i {
+  font-size: 50px;
+  opacity: 1;
+  color: white;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-color: #e9edee;
+}
+
+.carousel-indicators li.active {
+  background-color: var(--main-gray);
+}
+
+.slider-message {
+  position: absolute;
+  bottom: 50px;
+  z-index: 15;
+  background-color: rgba(128, 128, 128, 0.6);
+  font-size: 3rem;
+  padding: 15px 30px;
+  width: 60%;
+  color: white;
+  text-align: center;
+  right: 20%;
+}
+
+.slider-icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 16;
+}
+
+.slider-icons > div:nth-of-type(2) {
+  background-color: #bdbdbd;
+}
+
+.slider-icons > div {
+  background-color: #d7d7d7;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.slider-icons > div i {
+  font-size: 1.5rem;
+  color: #656867;
+}
+
+.dk-main-container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.dk-timeline-slider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.dk-timeline-slider > div {
+  width: 50%;
+}
+
+.dk-product-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dk-product-texts-each {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 2.5rem;
+  border-top: 1px dashed var(--main-gray);
+  padding: 5px;
+}
+
+.dk-product-texts-each:last-of-type {
+  border-bottom: 1px dashed var(--main-gray);
+}
+
+.dk-product-texts-each p:nth-of-type(1) {
+  color: #f6a033;
+}
+
+.dk-product-texts-each p:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #ec124f;
+}
+
+.dk-product-texts-each p:nth-of-type(3) {
+  color: var(--main-gray);
+}
+
+/* Timeline slider */
+
+.dk-slider-container {
+  width: 100%;
+  overflow: visible;
+  position: relative;
+  border: 4px solid rgba(128, 128, 128, 0.6);
+  border-radius: 5px;
+}
+
+.dk-slide {
+  display: none;
+}
+
+.dk-slide.dk-active {
+  display: block;
+}
+
+.dk-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.dk-dots-container {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dk-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.dk-dot::after {
+  position: absolute;
+  bottom: -25px; /* Adjust the distance from the dot */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rempx;
+  color: #bbb;
+  font-weight: bold;
+}
+
+.dk-dot.dk-active::after {
+  color: black;
+}
+
+.dk-dot:nth-of-type(1):after {
+  content: "1870";
+}
+
+.dk-dot:nth-of-type(2):after {
+  content: "1961";
+}
+.dk-dot:nth-of-type(3):after {
+  content: "1970";
+}
+.dk-dot:nth-of-type(4):after {
+  content: "1979";
+}
+.dk-dot:nth-of-type(5):after {
+  content: "1990";
+}
+.dk-dot:nth-of-type(6):after {
+  content: "1998";
+}
+.dk-dot:nth-of-type(7):after {
+  content: "2003";
+}
+.dk-dot:nth-of-type(8):after {
+  content: "2007";
+}
+
+.dk-dots-line {
+  border: 1px solid #bbb;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  width: 100%;
+}
+
+.dk-dot.dk-active {
+  background-color: #333;
+}
+
+.dk-controls {
+  padding: 0 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dk-control {
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hakkımızda kalite katalog kısmı */
+
+.dk-main-container-bottom {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.dk-about-quality {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.dk-about-quality > div {
+  border-radius: 20px;
+  background-color: #9a9c9b;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  width: calc((100% - 50px) / 3);
+}
+
+.dk-about-quality > div a {
+  color: white;
+}
+
+.dk-about-quality > div > p {
+  line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Kaç satırdan sonra kesileceği */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dk-about-quality > div > i {
+  font-size: 50px;
+}
+
+.dk-about-quality > div > h3 {
+  text-align: center;
+}
+
+.dk-about-quality > div:nth-of-type(2) {
+  background-color: #1d9bd6;
+}
+
+.dk-about-quality > div:nth-of-type(3) {
+  background-color: #8cc543;
+}
+
+.dk-about-quality > div > div {
+  align-self: flex-end;
+}
+
+/* Banner info kısmı  */
+
+.dk-banner-info {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: #afafaf;
+  padding: 20px;
+  background-color: #f4f2f3;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.dk-banner-info > i {
+  color: #ee4524;
+  font-size: 2rem;
+}
+
+/* Kolaj resim kısmı */
+
+.dk-collage {
+  margin-bottom: 50px;
+  border: 5px solid #eee9eb;
+  border-radius: 5px;
+  position: relative;
+  max-height: 350px;
+  width: 100%;
+}
+
+.dk-collage img {
+  width: 100%;
+}
+
+.dk-collage-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+  background-color: rgba(129, 129, 121, 0.42);
+  font-size: 2rem;
+  width: 90%;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  border-radius: 15px;
+}
+
+.dk-main-blue {
+  color: var(--main-blue) !important;
+}
+
+/* Footer */
+.dk-footer {
+  width: 100%;
+  background-color: #e4e4e4;
+  padding: 15px 0;
+  color: #6c6d6b;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.dk-footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  position: relative;
+}
+
+.dk-footer-container > div {
+  max-width: 25%;
+}
+
+.dk-footer-logo img {
+  width: 80%;
+  padding: 20px 0;
+}
+
+.dk-footer-heading {
+  display: inline-block;
+  padding-right: 20px;
+  border-bottom: 1px solid #aeaea6;
+  margin-bottom: 15px;
+}
+
+.dk-footer-address {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.dk-footer-main {
+  font-weight: bold;
+}
+
+.dk-footer-social {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  height: 25px;
+}
+
+.dk-footer-links {
+  list-style: none;
+}
+
+.dk-footer-links a {
+  color: inherit;
+}
+
+.dk-footer-social a i {
+  font-size: 25px;
+  color: white;
+}
+
+.dk-footer-social i {
+  font-size: 8px;
+  color: white;
+}
+
+.dk-go-top {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: var(--main-blue);
+  font-size: 40px;
+}
+
+.dk-go-top:hover {
+  color: var(--main-blue);
+  transform: scale(1.1);
+  transition: all 350ms ease;
+}
+
+@media only screen and (max-width: 1500px) {
+  .slider-message {
+    font-size: 2.5rem;
+    padding: 10px;
+    width: 70%;
+    right: 15%;
+  }
+
+  .dk-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .dk-main-container {
+    width: 94%;
+  }
+
+  .dk-main-container-bottom {
+    width: 94%;
+  }
+
+  .dk-product-texts-each {
+    font-size: 2rem;
+  }
+
+  .dk-banner-info {
+    flex-direction: column;
+  }
+
+  .dk-footer-container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dk-header .languages {
+    display: none;
+  }
+
+  .dk-banner-info {
+    font-size: 1rem;
+  }
+
+  .dk-top {
+    padding-right: 75px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dk-nav {
+    padding: 0;
+    background-color: transparent !important;
+    padding: 0;
+  }
+
+  .navbar-nav {
+    background-color: var(--main-blue);
+    padding: 15px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    right: calc(100% - 50px);
+    width: 50vw;
+    top: calc(50% + 20px);
+    z-index: 20;
+  }
+
+  .slider-message {
+    font-size: 2rem;
+    padding: 10px;
+    width: 75%;
+    right: 12.5%;
+  }
+
+  .dk-product-texts-each {
+    font-size: 1.5rem;
+  }
+
+  .dk-timeline-slider {
+    margin-bottom: 100px;
+  }
+
+  .dk-collage-text {
+    font-size: 1.3rem;
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .slider-message {
+    font-size: 2rem;
+    padding: 5px;
+    width: 90%;
+    right: 5%;
+  }
+
+  .dk-timeline-slider {
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+  }
+
+  .dk-timeline-slider > div {
+    width: 75%;
+  }
+
+  .dk-about-quality {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dk-about-quality > div {
+    width: 90%;
+  }
+
+  .dk-footer-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .dk-footer-container > div {
+    min-width: calc((100% - 25px) / 2);
+    order: 3;
+  }
+  .dk-footer-container .dk-footer-logo {
+    order: 1;
+  }
+  .dk-footer-container .dk-footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: unset;
+    order: 2;
+    height: unset;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .dk-header > .logo {
+    max-width: 65vw;
+  }
+
+  .navbar-collapse {
+    width: 80vw;
+  }
+
+  .dk-timeline-slider > div {
+    width: 90%;
+  }
+
+  .dk-product-texts-each {
+    font-size: 1.2rem;
+  }
+
+  .dk-collage-text {
+    font-size: 1rem;
+    width: 90%;
+    padding: 5px;
+  }
+
+  .dk-footer-container > div {
+    min-width: 80%;
+    text-align: center;
+  }
+
+  .dk-footer-container .dk-footer-social {
+    justify-content: center;
+    order: 5;
+  }
+
+  .dk-footer-address {
+    width: unset;
+  }
+
+  .dk-footer-heading {
+    display: inline-block;
+    padding-right: 0;
+    border-bottom: 1px solid #aeaea6;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .slider-message {
+    font-size: 2rem;
+    padding: 5px;
+    width: 90%;
+    right: 5%;
+  }
+
+  .dk-collage-text {
+    font-size: 0.8rem;
+    width: 95%;
+    padding: 2px;
+  }
+
+  .dk-timeline-slider > div {
+    width: 100%;
+  }
+  .dk-dots-container {
+    display: none;
+  }
+
+  .dk-timeline-slider {
+    margin-bottom: 50px;
+  }
+
+  .dk-product-texts-each {
+    font-size: 0.8rem;
+  }
+}
+
+/**/
