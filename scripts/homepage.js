@@ -31,4 +31,101 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  // İçerik dizisi, yıl ve içerik bilgileri
+  const timelineData = {
+    1870: {
+      content:
+        "1790 doğumlu Mısırlızadelerden dedemiz Demirci Ali Usta'nın girişimciliğiyle DEMİRELLER ailesi demircilik işleri ve çeşitli çalik malzeme imalatıyla iştigal etmeye başlamıştır. Piyasa ihtiyaçları doğrultusundakazma, tüfek gibi aletler üretilmiştir. 1920 yılından sonra Cumhuriyet döneminde tüfek imalatının yasaklanmasıyla tartıaletleri imalatı ana üretim konusu olmuştur.",
+      imageUrl: "assets/images/history/tarti.png",
+    },
+    1961: {
+      content:
+        "Yeni pazar ihtiyaçları doğrultusunda Bilal DEMİREL Adapazarı'na gelir ve tartı aletlerinin üretimine bu ilde devam eder. 1963 yılında küçük kardeşi Osman DEMİREL ve 1967 yılında ağabeyi Hasan DEMİREL ile bir araya gelerek makine imalat işleri için ulusal ihalelere katılmaya başlanır. Su tankları, çöp yakma fırınları, yataklar, ve römorklar kardeşler tarafından ihale ile alınıp imalatı gerçekleştirilen ürünlerden bazılarıdır.",
+      imageUrl: "assets/images/history/osmanDemirel.png",
+    },
+    1970: {
+      content:
+        "Mahmut DEMİREL yönetime katılır. Kardan milleri ve traktör yedek parçaları ile ilgili artan piyasa talepleri neticesinde şirketin bu alanlarda faaliyet göstermesi gerekliliği görülmüş, bu doğrultuda yatırımlar yapılarak üretime geçilmiştir.",
+      imageUrl: "assets/images/history/tarti.png",
+    },
+    1979: {
+      content:
+        "Demireller Makine San. ve Tic. A.Ş. adı altında şirket kurulur.",
+      imageUrl: "image-1979.jpg",
+    },
+    1990: {
+      content:
+        "Nüfus artışıyla orantılı olarak taşıma sektöründe talepler artmış dolayısıyla demiryollarında oluşan onarım ve bakım yetersizliği bu alanda şirketler için yatırım yapma olanağı doğurmuştur. Bu sebeple firmamız yeni tesisler inşaa ederek Vagon Bakım & Onarım bölümünü kurmaya karar vermiştir. Ulusal ihale lere katılım sağlanarak çeşitli tiplerde bakım onarım ve yolcu koltukları imalatları gerçekleştirilmiştir.",
+      imageUrl: "assets/images/history/vagon bakım onarım.png",
+    },
+    1998: {
+      content:
+        "Türkiye'nin tekstil sektöründeki konumu nedeniyle ev tekstilinde de faaliyet gösterme kararı alınarak firma ismi Demireller Makine-Tekstil San. ve Tic. A.Ş. olarak değiştirilmiştir.",
+      imageUrl: "assets/images/history/dokuma.png",
+    },
+    2003: {
+      content:
+        "Şirketimiz üç ortağıyla birlikte özelleştirme sonucunda Başak Traktör İş ve Tarım Makineleri San. ve Tic. A.Ş'yi satın almıştır. 2012 yılında SANKO holding'e satılarak iştirakimiz sonlandırılmıştır.",
+      imageUrl: "assets/images/history/basakLogo.png",
+    },
+    2007: {
+      content:
+        "Mafsal İstavrozları imalatının yanında müşterilerimizden gelen talepler doğrultusun da kardan milleri ve yedek parçalarının üretim ve bakım faaliyetlerinde de bulunma kararı alınmış. Demireller Kardan Milleri ve İş Mak. San. ve Tic. Ltd. Şti. adı altında şirket kurulu mu gerçekleştirilmiştir.",
+      imageUrl: "assets/images/logoDikey.png",
+    },
+  };
+
+  // Tüm zaman çizgisi noktalarını seç
+  const timelineDots = document.querySelectorAll(".dk-timeline-dot");
+  const popup = document.querySelector(".dk-timeline-popup");
+  const popupYear = document.querySelector(".dk-timeline-year");
+  const popupContent = document.querySelector(".dk-timeline-content");
+  const popupImage = document.querySelector(".dk-timeline-image img");
+
+  // Her bir zaman çizgisi noktasına tıklama olayı ekle
+  timelineDots.forEach((dot) => {
+    dot.addEventListener("click", function () {
+      // Tıklanan yıl
+      const year = this.getAttribute("data-year");
+
+      // İçeriği bul ve pop-up'ı güncelle
+      if (timelineData[year]) {
+        popupYear.textContent = year;
+        popupContent.textContent = timelineData[year].content;
+        popupImage.src = timelineData[year].imageUrl;
+
+        // Pop-up'ı görünür yap
+        popup.style.visibility = "visible";
+        popup.style.opacity = 1; // Animasyon için
+      }
+    });
+  });
+
+  // Pop-up'ı kapatmak için dış tıklama özelliği ekleyebilirsin
+  popup.addEventListener("click", function () {
+    popup.style.visibility = "hidden";
+    popup.style.opacity = 0;
+  });
+
+  /* Carousel slider message */
+
+  // Slider mesajlarını içeren bir obje
+  const sliderMessages = {
+    0: "15 - 210 mm Rulman Ölçülerinde Taşıt ve Makinalar için Mafsal İstavrozu Çözümleri",
+    1: "Yüksek kaliteli rulman ve istavroz çözümleri.",
+    2: "Otomotiv ve endüstriyel uygulamalara özel istavroz çözümleri.",
+    3: "Güvenilir ve dayanıklı rulman sistemleri.",
+  };
+
+  // Slider event'ine listener ekliyoruz
+  $("#carouselExampleIndicators").on("slide.bs.carousel", function (e) {
+    // Geçiş yapılacak index numarasını alıyoruz
+    const nextSlideIndex = $(e.relatedTarget).index();
+
+    // Eğer obje içerisinde bu index varsa mesajı güncelliyoruz
+    if (sliderMessages[nextSlideIndex]) {
+      $(".slider-message p").text(sliderMessages[nextSlideIndex]);
+    }
+  });
 });
