@@ -108,6 +108,10 @@
   min-width: 100px;
 }
 
+.dk-history-07 img.dk-demireller-logo {
+  width: 40% !important;
+}
+
 @media only screen and (max-width: 1200px) {
   .dk-history-main-container {
     width: 90%;
@@ -123,6 +127,10 @@
   .dk-history-main-container {
     width: 90%;
     font-size: 16px;
+  }
+
+  .dk-history-07 img.dk-demireller-logo {
+    width: 20% !important;
   }
 }
 

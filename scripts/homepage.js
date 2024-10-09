@@ -91,9 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // İçeriği bul ve pop-up'ı güncelle
       if (timelineData[year]) {
-        popupYear.textContent = year;
-        popupContent.textContent = timelineData[year].content;
-        popupImage.src = timelineData[year].imageUrl;
+        popupImage.src = `./assets/images/homepage/${year}.png`;
 
         // Pop-up'ı görünür yap
         popup.style.visibility = "visible";

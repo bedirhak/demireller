@@ -1,5 +1,10 @@
+.dk-world-wide {
+  text-align: justify;
+}
+
 .dk-world-wide .slider-message {
   text-align: left;
+  background-color: rgba(128, 128, 128, 0.3);
 }
 
 .dk-world-wide-text {
