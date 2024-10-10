@@ -409,6 +409,10 @@ body {
   color: white;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .dk-about-quality > div > p {
   line-height: 16px;
   display: -webkit-box;

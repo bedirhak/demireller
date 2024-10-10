@@ -17,6 +17,21 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("Çalıştı");
     });
   });
+
+  /* Slider scroll */
+
+  // Scroll olayı dinleyici
+  window.addEventListener("scroll", function () {
+    // Y pozisyonunu al
+    const yPos = window.scrollY || window.pageYOffset;
+
+    // Y pozisyonu 580'den büyükse
+    if (yPos > 580) {
+      $(".slider-message").css("display", "none");
+    } else {
+      $(".slider-message").css("display", "block");
+    }
+  });
 });
 
 // Ekran boyutu değiştiğinde yüksekliği güncelle
