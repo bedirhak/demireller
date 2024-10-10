@@ -165,7 +165,6 @@ body {
 
 .slider-message p {
   font-family: "Oxanium", sans-serif;
-
   background-color: rgba(128, 128, 128, 0.4);
   width: 100%;
 }
@@ -417,6 +416,8 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: justify;
+  font-size: 14px;
 }
 
 .dk-about-quality > div > i {
