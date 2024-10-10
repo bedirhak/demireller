@@ -1,5 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
   updateHeight(); // Sayfa yüklendiğinde yüksekliği güncelle
+
+  // Tüm dk-product-texts-each ve dk-slide elementlerini seçiyoruz
+  const productTexts = document.querySelectorAll(".dk-product-texts-each");
+  const slides = document.querySelectorAll(".dk-slide");
+
+  // Üzerine gelindiğinde sırasına göre slider'ı gösteren fonksiyon
+  productTexts.forEach((item, index) => {
+    item.addEventListener("mouseover", function () {
+      // Öncelikle tüm slider'lardan aktif sınıfını kaldırıyoruz
+      slides.forEach((slide) => slide.classList.remove("dk-active"));
+
+      // Sırasına göre ilgili slider'ı aktif hale getiriyoruz
+      slides[index].classList.add("dk-active");
+
+      console.log("Çalıştı");
+    });
+  });
 });
 
 // Ekran boyutu değiştiğinde yüksekliği güncelle
@@ -111,9 +128,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Slider mesajlarını içeren bir obje
   const sliderMessages = {
     0: "15 - 210 mm Rulman Ölçülerinde Taşıt ve Makinalar için Mafsal İstavrozu Çözümleri",
-    1: "Yüksek kaliteli rulman ve istavroz çözümleri.",
-    2: "Otomotiv ve endüstriyel uygulamalara özel istavroz çözümleri.",
-    3: "Güvenilir ve dayanıklı rulman sistemleri.",
+    1: "340kNm Max. Torka Kadar Endüstriyel Uygulamalar İçin Kardan Miller",
+    2: "Güvenilir Traktör Yedek Parça Tedarikçiniz",
+    3: "Sıcak & Soğuk Dövmede Çözüm Ortağınız",
   };
 
   // Slider event'ine listener ekliyoruz
