@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Slider mesajlarını içeren bir obje
   const sliderMessages = {
     0: "15 - 210 mm Rulman Ölçülerinde Taşıt ve Makinalar için Mafsal İstavrozu Çözümleri",
-    1: "340kNm Max. Torka Kadar Endüstriyel Uygulamalar İçin Kardan Miller",
+    1: "340kNm Max. Torka Kadar Endüstriyel Uygulamalar İçin Kardan Milleri",
     2: "Güvenilir Traktör Yedek Parça Tedarikçiniz",
     3: "Sıcak & Soğuk Dövmede Çözüm Ortağınız",
   };
