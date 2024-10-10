@@ -2,6 +2,35 @@
   text-align: left;
 }
 
+.dk-miller {
+  text-align: justify;
+}
+
+.dk-miller-text-heading {
+  font-size: 1.3rem;
+}
+
+.dk-miller {
+  .carousel-item:nth-of-type(1) {
+    background-image: url(../assets/images/miller/slider1.jpg);
+  }
+
+  .carousel-item:nth-of-type(2) {
+    background-image: url(../assets/images/miller/slider2.jpg);
+  }
+
+  .carousel-item:nth-of-type(3) {
+    background-image: url(../assets/images/miller/slider3.jpg);
+  }
+
+  .carousel-item:nth-of-type(4) {
+    background-image: url(../assets/images/miller/slider4.jpg);
+  }
+  .carousel-item:nth-of-type(5) {
+    background-image: url(../assets/images/miller/slider5.jpg);
+  }
+}
+
 .dk-miller .dk-mafsal-tabs {
   justify-content: flex-start;
   gap: 50px;
