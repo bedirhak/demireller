@@ -126,8 +126,10 @@ document.addEventListener("DOMContentLoaded", function () {
         popupImage.src = `./assets/images/homepage/${year}.png`;
 
         // Pop-up'ı görünür yap
-        popup.style.visibility = "visible";
-        popup.style.opacity = 1; // Animasyon için
+        setTimeout(() => {
+          popup.style.visibility = "visible";
+          popup.style.opacity = 1; // Animasyon için
+        }, 250);
       }
     });
   });
