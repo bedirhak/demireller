@@ -410,7 +410,7 @@ body {
 }
 
 .dk-about-quality > div > p {
-  line-height: 22px;
+  line-height: 16px;
   display: -webkit-box;
   -webkit-line-clamp: 5; /* Kaç satırdan sonra kesileceği */
   -webkit-box-orient: vertical;
@@ -418,6 +418,7 @@ body {
   text-overflow: ellipsis;
   text-align: justify;
   font-size: 14px;
+  padding: 0 8px;
 }
 
 .dk-about-quality > div > i {
