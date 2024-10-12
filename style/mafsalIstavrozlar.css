@@ -102,6 +102,48 @@
   width: 100%;
 }
 
+.dk-mafsal-montaj-image-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 25px;
+}
+
+.dk-montaj-tipi-each {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 150px;
+}
+
+.dk-montaj-tipi-each {
+  max-width: 15%;
+}
+
+.dk-montaj-tipi-image {
+  text-align: center;
+}
+
+.dk-montaj-tipi-image img {
+  width: 140px;
+  height: 125px;
+}
+
+.dk-montaj-tipi-text {
+  font-size: 22px;
+  color: var(--main-gray);
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  width: 80%;
+}
+
 /* Tab 3 */
 .dk-tab3 {
   font-size: 24px;
@@ -192,5 +234,11 @@
 
   .dk-mafsal-tab3-paragraph {
     text-align: center;
+  }
+
+  .dk-mafsal-montaj-image-container {
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto 25px auto;
   }
 }
