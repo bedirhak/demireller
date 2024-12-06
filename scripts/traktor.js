@@ -40,4 +40,29 @@ $(document).ready(function () {
     slides[currentSlide].classList.add("dk-active");
     updateSliderMessage(currentSlide); // Mesajı güncelle
   });
+
+  const textItems = document.querySelectorAll(".dk-traktor-list li");
+  const textSlides = document.querySelectorAll(".dk-slide");
+
+  textItems.forEach(function (item, index) {
+    item.addEventListener("mouseenter", function () {
+      // Tüm slider görsellerinden 'dk-active' sınıfını kaldır
+      textSlides.forEach(function (slide) {
+        slide.classList.remove("dk-active");
+      });
+
+      // İlgili slider görseline 'dk-active' sınıfını ekle
+      if (textSlides[index]) {
+        textSlides[index].classList.add("dk-active");
+      }
+
+      // Slider mesajını güncelle
+      const messageElement = document.querySelector(
+        ".dk-traktor-slider-message"
+      );
+      if (messageElement) {
+        messageElement.textContent = item.textContent || "";
+      }
+    });
+  });
 });

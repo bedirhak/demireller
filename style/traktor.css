@@ -20,8 +20,13 @@
 }
 
 .dk-traktor-list li {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #aaaaaa;
+}
+
+.dk-traktor-list li:hover {
+  cursor: pointer;
+  color: var(--main-gray);
 }
 
 .dk-traktor-list-image > div {
