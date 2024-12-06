@@ -24,13 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     // Y pozisyonunu al
     const yPos = window.scrollY || window.pageYOffset;
-
-    // Y pozisyonu 580'den büyükse
-    if (yPos > 580) {
-      $(".slider-message").css("display", "none");
-    } else {
-      $(".slider-message").css("display", "block");
-    }
   });
 });
 
