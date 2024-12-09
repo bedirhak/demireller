@@ -15,7 +15,7 @@
 }
 
 .dk-quality {
-  text-align: justify;
+  text-align: left;
   .carousel-item:nth-of-type(1) {
     background-image: url(../assets/images/quality/slider1.jpg) !important;
   }

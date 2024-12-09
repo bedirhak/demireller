@@ -1,6 +1,4 @@
 .dk-hot-cold {
-  text-align: justify;
-
   .carousel-item:nth-of-type(1) {
     background-image: url(../assets/images/hotCold/slider1.jpg) !important;
   }
@@ -23,7 +21,7 @@
 
 .dk-hot-cold-main::after {
   content: "";
-  opacity: 0.4; /* Set the opacity for the background image */
+  opacity: 0.3; /* Set the opacity for the background image */
   transform: rotate(-25deg);
   position: absolute;
   top: 50px;

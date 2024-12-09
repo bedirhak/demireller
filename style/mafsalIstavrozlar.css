@@ -22,12 +22,31 @@
   .carousel-item:nth-of-type(5) {
     background-image: url(../assets/images/mafsal/slider5.jpg);
   }
+
+  /* .carousel-item:nth-of-type(1) {
+    background-image: url(../assets/images/mafsal/Asset\ 1.png) !important;
+  }
+
+  .carousel-item:nth-of-type(2) {
+    background-image: url(../assets/images/mafsal/Asset\ 2.png);
+  }
+
+  .carousel-item:nth-of-type(3) {
+    background-image: url(../assets/images/mafsal/Asset\ 3.png);
+  }
+
+  .carousel-item:nth-of-type(4) {
+    background-image: url(../assets/images/mafsal/Asset\ 4.png);
+  }
+  .carousel-item:nth-of-type(5) {
+    background-image: url(../assets/images/mafsal/Asset\ 5.png);
+  } */
 }
 
 .dk-mafsal:has(.bg-tab.dk-active-tab)::after {
   content: "";
   width: 95%;
-  opacity: 0.3;
+  opacity: 0.2;
   position: absolute;
   top: 460px;
   right: 0;

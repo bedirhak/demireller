@@ -9,7 +9,6 @@
 
 .dk-tractor {
   overflow-x: hidden;
-  text-align: justify;
 
   .carousel-item:nth-of-type(1) {
     background-image: url(../assets/images/traktor/slider1.jpg) !important;

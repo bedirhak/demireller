@@ -152,7 +152,7 @@ body {
   z-index: 15;
   font-size: 3rem;
   padding: 15px 30px;
-  width: 60%;
+  width: 65%;
   color: white;
   text-align: center;
   right: 20%;
@@ -163,7 +163,7 @@ body {
 .slider-message p {
   font-family: "Oxanium", sans-serif;
   background-color: rgba(150, 150, 150, 0.7);
-  padding-left: 45px;
+  padding: 0 45px;
   height: 160px;
   width: 100%;
   display: flex;
@@ -546,6 +546,7 @@ body {
 .dk-footer-address {
   width: 80%;
   margin-bottom: 15px;
+  text-align: left !important;
 }
 
 .dk-footer-main {

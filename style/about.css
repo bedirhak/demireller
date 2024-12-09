@@ -1,6 +1,4 @@
 .dk-about {
-  text-align: justify;
-
   .carousel-item:nth-of-type(1) {
     background-image: url(../assets/images/about/slider1.jpg) !important;
   }
@@ -49,7 +47,7 @@
 }
 
 .dk-about-image img {
-  width: 380px;
+  width: 300px;
   display: inline-block;
   margin-bottom: 5px;
   border: 5px solid #eee9eb;
