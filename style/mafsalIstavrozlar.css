@@ -43,17 +43,33 @@
   } */
 }
 
-.dk-mafsal:has(.bg-tab.dk-active-tab)::after {
+/* .dk-mafsal:has(.bg-tab.dk-active-tab)::after {
   content: "";
   width: 95%;
-  opacity: 0.2;
+  opacity: 1;
   position: absolute;
   top: 460px;
   right: 0;
   left: 730px;
   bottom: 0;
+  z-index: -1; */
+/* background-image: url(../assets/images/mafsal/mafsalBg.png); */
+/* background-image: url(../assets/images/mafsal/mafsalBg2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right; */
+/* } */
+.dk-mafsal:has(.bg-tab.dk-active-tab)::after {
+  content: "";
+  width: 55%;
+  opacity: 0.1;
+  position: absolute;
+  top: 450px;
+  right: 0;
+  left: 57%;
+  bottom: 0;
   z-index: -1;
-  background-image: url(../assets/images/mafsal/mafsalBg.png);
+  background-image: url(../assets/images/mafsal/mafsalImageBg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center right;
