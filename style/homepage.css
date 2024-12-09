@@ -152,10 +152,10 @@ body {
   z-index: 15;
   font-size: 3rem;
   padding: 15px 30px;
-  width: 65%;
+  width: 70%;
+  right: 15%;
   color: white;
   text-align: center;
-  right: 20%;
   display: flex;
   align-items: flex-end;
 }
