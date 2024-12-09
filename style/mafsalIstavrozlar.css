@@ -62,7 +62,7 @@
 .dk-mafsal::after {
   content: "";
   width: 55%;
-  opacity: 0.2;
+  opacity: 0.15;
   position: absolute;
   top: 450px;
   right: 0;
