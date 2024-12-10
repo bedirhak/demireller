@@ -35,6 +35,12 @@
   background-position: center right;
 }
 
+@media (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 .dk-hot-cold-slider-container > p {
   width: 55%;
 }

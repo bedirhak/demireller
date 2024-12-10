@@ -47,7 +47,7 @@
 .dk-miller::after {
   content: "";
   width: 80%;
-  opacity: 0.1;
+  opacity: 0.3;
   position: absolute;
   top: 500px;
   right: 0;
@@ -55,7 +55,7 @@
   bottom: 0;
   z-index: -1;
   /* background-image: url(../assets/images/miller/milBg.png); */
-  background-image: url(../assets/images/miller/milBgImage.png);
+  background-image: url(../assets/images/miller/saftBg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center right;

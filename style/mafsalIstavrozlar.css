@@ -62,14 +62,14 @@
 .dk-mafsal::after {
   content: "";
   width: 55%;
-  opacity: 0.15;
+  opacity: 0.2;
   position: absolute;
   top: 450px;
   right: 0;
   left: 57%;
   bottom: 0;
   z-index: -1;
-  background-image: url(../assets/images/mafsal/mafsalCizim.png);
+  background-image: url(../assets/images/mafsal/mafsalBgg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center right;
