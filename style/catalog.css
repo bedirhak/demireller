@@ -13,14 +13,14 @@
   }
 
   .carousel-item:nth-of-type(2) {
-    background-image: url(../assets/images/catalog/slider2.jpg);
+    background-image: url(../assets/images/catalog/slider2.png);
   }
 
   .carousel-item:nth-of-type(3) {
     background-image: url(../assets/images/catalog/slider3.jpg);
   }
   .carousel-item:nth-of-type(4) {
-    background-image: url(../assets/images/catalog/slider4.jpg);
+    background-image: url(../assets/images/catalog/slider4.png);
   }
   .carousel-item:nth-of-type(5) {
     background-image: url(../assets/images/catalog/slider5.jpg);

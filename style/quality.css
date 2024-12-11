@@ -2,6 +2,10 @@
   text-align: left;
 }
 
+.dk-quality .carousel-item {
+  background-position: top;
+}
+
 .dk-quality-text {
   width: 1200px;
   max-width: 96%;
@@ -25,7 +29,7 @@
   }
 
   .carousel-item:nth-of-type(3) {
-    background-image: url(../assets/images/quality/slider3.jpg);
+    background-image: url(../assets/images/quality/Slider3.png);
   }
 
   .carousel-item:nth-of-type(4) {
