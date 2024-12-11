@@ -35,9 +35,9 @@
   background-position: center right;
 }
 
-@media (max-width: 1200px) {
-  body {
-    overflow-x: hidden;
+@media (max-width: 1300px) {
+  .dk-hot-cold-main::after {
+    display: none;
   }
 }
 

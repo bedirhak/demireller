@@ -35,6 +35,12 @@
   background-position: center right;
 }
 
+@media only screen and (max-width: 1300px) {
+  .dk-tractor::after {
+    display: none;
+  }
+}
+
 .dk-traktor-list li {
   font-size: 1.5rem;
   color: #aaaaaa;

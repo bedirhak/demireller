@@ -61,6 +61,12 @@
   background-position: center right;
 }
 
+@media only screen and (max-width: 1300px) {
+  .dk-miller::after {
+    display: none;
+  }
+}
+
 .dk-miller .dk-mafsal-tabs {
   justify-content: flex-start;
   gap: 50px;
