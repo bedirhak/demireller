@@ -4,7 +4,8 @@
   }
 
   .carousel-inner {
-    height: 645px;
+    max-height: 645px;
+    height: auto;
   }
 }
 
@@ -42,9 +43,16 @@
   border-radius: 4px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
   .dk-about-text {
     width: 100%;
+  }
+
+  .slider-message p {
+    font-family: "Oxanium", sans-serif;
+    background-color: rgba(150, 150, 150, 0.7);
+    padding: 0 45px;
+    height: unset;
   }
 }
 
@@ -72,6 +80,31 @@
 
   .dk-about-text {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .slider-message {
+    width: unset;
+    right: 10%;
+    width: 80%;
+    text-align: center;
+    bottom: 10px;
+  }
+  .slider-message p {
+    font-size: 16px;
+    padding: 5px;
+    text-align: center !important;
+    justify-content: center;
+  }
+
+  .slider-icons > div {
+    width: 30px;
+    height: 30px;
+  }
+
+  .carousel-control i {
+    font-size: 30px;
   }
 }
 
