@@ -164,6 +164,71 @@ const translations = {
       "Types with friction, face key, hirt-serration and dog teeth connection",
     kardan15: "Split Bearing Eye design between Ø65mm-Ø170mm",
     kardan16: "Closed Bearing Eye design between Ø72mm-Ø210mm",
+    //Tractor
+    tractorP1:
+      "Demireller Kardan, whose history dates back to the 1970s, has become one of the leading organizations that manufactures a wide range of original tractor spare parts by focusing on customer satisfaction in addition to automotive spare parts manufacturing. Our company, which has a production facility equipped with the most advanced technology with over 50 years of experience, continues its activities in order to offer the highest quality products and services to its customers.",
+    tractorP2:
+      "We carry out the production of tractor spare parts, including forging, welding and machining processes, under the leadership of our dedicated staff, taking into account the ISO EN 9001:2015 quality management system and international standards.",
+    tractorP3:
+      "Our company, which wants to be a solution partner for spare parts production in the agricultural sector, aims to be a spare parts supplier that is appreciated for its employees and performance. Since customer satisfaction is essential, establishing long-term partnerships by providing fast shipping and delivery times has become our priority.",
+    tractorP4:
+      "The spare parts manufactured by Demireller Kardan, which has a production facility in Sakarya and employs specialized personnel in its fields, are as follows:",
+    tractorP5:
+      "Due to the flexibility in our production line, you can contact us for your similar and different types of product requests.",
+    tractorTitle1: "Height Adjustable Rear Tow Hook",
+    tractorTitle2: "Cardan Shafts",
+    tractorTitle3: "Lifting Arm Hook",
+    tractorTitle4: "Rops",
+    tractorTitle5: "Front Axle W/Pivot Bushing",
+    tractorTitle6: "Top Link Assembly",
+    tractorTitle7: "Rear Tow Hook Body",
+    tractorTitle8: "Front Spindle Arm",
+    tractorTitle9: "DrawBar",
+    tractorTitle10: "Rear Tow Hook",
+    tractorTitle11: "Connection Console",
+    //Hot & Cold Forging
+    hotP1:
+      "With over 50 years of experience, Demireller Kardan, whose production facility is located in Sakarya, designs and manufactures forged parts that provide maximum efficiency, durability and reliability for a wide range of industrial applications such as automotive, tractor and heavy industry as well as railway & wagon industry, etc.",
+    hotP2:
+      "Our company, with over 30 specialized employees, produces hot & cold forged parts in a closed area of 5,000 m2 with hydraulic, eccentric, friction presses, induction and annealing furnaces of various capacities and numbers in accordance with international standards to meet the quality requirements of our customers. Our company, which has modern forging equipment, can also provide post-forging machining services with universal and CNC machines when needed.",
+    hotP3:
+      "All pre-forging and post-forging operations of materials forged from carbon, tempered and cemented steels up to 40 kg are carried out in our facilities, and our needs regarding heat treatment, tempering and normalization processes are met by our partners who have been serving us in this regard for many years under the control of our company.",
+    hotP4:
+      "Demireller Kardan carries out the design and manufacturing of all forging, burr cutting, molds and apparatus used in production. In order to ensure high product quality, our production line is supported by equipment such as 3D measurement devices, crack control devices, hardness measurement devices, etc.",
+    hotP5:
+      "Customer-oriented Demireller Kardan, with its comprehensive design, forging, engineering and manufacturing capabilities, applies the DIN EN ISO 9001:2015 quality management standard in all production processes in order to meet high quality expectations.",
+    hotP6:
+      "Our company, which continues its work to provide first-class products by establishing reliable and long-term customer relationships, aims to become a globally recognized company by updating its system according to the latest technology and standards.",
+    //Catalogues
+    katalogP1:
+      'The general contents of our catalogues and brochures are listed in the following sections based on product groups. Click the "DOWNLOAD FILE" button to access the details of the catalogues and brochure you are interested in.',
+    productCatalogue: "Product Catalogues",
+    mafsalKatalog: "Universal Joint Kits Catalogue",
+    kardanKatalog: "Industrial Cardan Shafts Catalogue",
+    brochure: "Brochures",
+    companyIntro: "Company Introduction",
+    katalogTractor: "Tractor Spare Parts",
+    sertifika: "Certificates",
+    //Contact
+    reachUs: "Contact Us",
+    contactTitle1: "Export and Import",
+    contactTitle2: "Domestic Sales / Purchasing / Human Resources",
+    contactTitle3: "Quality / Logistics",
+    contactTitle4: "Accounting",
+    send: "Send",
+    homeP1:
+      "The history of our company dates back to the 1970s when there was a shortage of spare parts supply in the automotive sector in Turkey. Under the leadership of our founder, Bilal DEMİREL, Demireller Makina-Tekstil San. ve Tic. A.Ş. was established in the mid-1970s to produce universal joint kits and tractor spare parts.",
+    homeP2:
+      "Demireller Kardan has adopted being among the most reliable institutions in its field as the most basic principle of its management policy. The primary principle of our company is to provide the best product and service to the customer on time, in an unlimited competitive environment, without deviating from the laws and standards, based on continuous development, with its trained staff focused on customer satisfaction.",
+    homeP3:
+      'The general contents of our catalogues and brochures are listed in the following sections based on product groups. Click the "DOWNLOAD FILE" button to access the details of the catalogues and brochure you are interested in.',
+    more: "More",
+    banner:
+      "We look forward to seeing you at our stand in Hall5 B-177 at the Ankiros fair on 19-21 September 2024.",
+    collage:
+      "With over 50 years of experience, we continue to be your high-quality spare parts partner...",
+    sliderMessage:
+      "Universal Joint Kit Solutions for Vehicles and Machinery with Bearing Dimensions of 15 - 210 mm",
   },
 
   tr: {
@@ -329,5 +394,71 @@ const translations = {
     kardan14: "Kamalı, kamasız, kurt ağızlı ve tırtıklı tipler",
     kardan15: "Ø65mm-Ø170mm arası kepli tipler",
     kardan16: "Ø72mm-Ø210mm arası segmanlı tipler",
+    //Traktör
+    tractorP1:
+      "Geçmişi 1970'li yıllara dayanan Demireller Kardan otomotiv yedek parçaları imalatı yanında müşteri memnuniyetine odaklanarak geniş bir yelpazede orjinal traktör yedek parçası üretimi yapan önde kuruluşlardan biri olmuştur. 50 yılı aşkın tecrübeyle en gelişmiş teknolojiyle donatılan üretim tesisine sahip şirketimiz müşterilerine en kaliteli ürün ve hizmeti sunmak amacıyla faaliyetlerini sürdürmektedir.",
+    tractorP2:
+      "Dövme, kaynak, ve talaşlı imalat proseslerini içeren traktör yedek parçaları üretimini kendini işine adamış kadromuz öncülüğünde ISO EN 9001:2015 kalite yönetim sistemi ve uluslararası standartları göz önünde bulundurarak gerçekleştirmekteyiz.",
+    tractorP3:
+      "Tarım sektöründe yedek parça üretimi için çözüm ortağı olmak isteyen firmamızın birincil hedefi çalışanları ve performansı ile beğenilen yedek parça tedarikçisi olmaktır. Müşteri memnuniyeti esas olduğundan hızlı sevkiyat ve teslimat süreleri sağlayarak uzun vadeli ortaklıklar kurmak önceliğimiz olmuştur.",
+    tractorP4:
+      "Üretim tesisi Sakarya'da olan ve konularında uzmanlaşmış personelleri bünyesinde bulunduran Demireller Kardan'ın imalatını gerçekleştirdiği yedek parçalar;",
+    tractorP5:
+      "İmalat hattındaki esneklikten dolayı bunlara benzer ve farklı tipteki ürün talepleriniz için bizlerle irtibata geçebilirsiniz.",
+    tractorTitle1: "Asansörlü Arka Çeki",
+    tractorTitle2: "Kardan Milleri",
+    tractorTitle3: "Kaldırma Kolu Kancası",
+    tractorTitle4: "Emniyet Çemberi",
+    tractorTitle5: "Hidrolik Ön Dingil",
+    tractorTitle6: "Hidrolik Orta Kol",
+    tractorTitle7: "Arka Çeki Gövdesi",
+    tractorTitle8: "Hidrolik Dingil Başı",
+    tractorTitle9: "Çeki Oku",
+    tractorTitle10: "Sabit Arka Çeki",
+    tractorTitle11: "Bağlantı Konsolu",
+    //Sıcak & Soğuk Dövme
+    hotP1:
+      "50 yılı aşkın tecrübeyle üretim tesisi Sakarya'da bulunan Demireller Kardan otomotiv, traktör ve ağır sanayiinde kullanılan parçaların yanısıra demiryolu & vagon sanayii, v.s. gibi çok çeşitli endüstriyel uygulamalar için maksimum verimlilik, dayanıklılık ve güvenilirlik sağlayan dövme parçaları tasarlamakta ve üretimini gerçekleştirmektedir.",
+    hotP2:
+      "Firmamız konusunda uzmanlaşmış 30'u aşkın çalışanıyla 5.000m2 si kapalı alanda sıcak & soğuk dövme parçalarını üretimini çeşitli kapasite ve sayılardaki hidrolik, eksantrik, friksiyon presleri, indüksiyon ve tavlama fırınlarıyla uluslararası standarlara uygun olarak müşterilerimizin kalite gereksinimlerini karşılayacak şekilde gerçekleştirmektedir. Modern dövme ekipmanlarını bünyesinde bulunduran şirketimiz, ihtiyaç durumunda dövme sonrası talaşlı imalat hizmetlerini de universal ve CNC tezgahlarıyla sunabilmektedir.",
+    hotP3:
+      "Karbon, islah, ve sementasyon çeliklerinden 40kg a kadar dövülen malzemelerin tüm dövme öncesi ve sonrası operasyonlar tesislerimizde gerçekleştirilmekte ısıl işlem, islah, ve normalize işlemleri konusunda ki ihtiyaçlarımız da firmamızın kontrolü altında uzun yıllardır bizlere bu konuda hizmet veren ortaklarımız tarafından karşılanmaktadır.",
+    hotP4:
+      "Demireller Kardan üretimde kullanılan tüm dövme, çapak kesme, v.s. kalıp ve aparatlarının tasarım ve imalatını bünyesinde gerçekleştirilmektedir. Yüksek ürün kalitesinin temini amacıyla üretim hattımız 3 boyutlu ölçüm cihazları, çatlak kontrol cihazları, sertlik ölçüm cihazları, v,s. gibi ekipmanlarla desteklenmiştir.",
+    hotP5:
+      "Kapsamlı tasarım, dövme, mühendislik, ve üretim yeteneklerine sahip müşteri odaklı Demireller Kardan yüksek kalite beklentilerini karşılamak amacıyla tüm üretim süreçlerinde DIN EN ISO 9001:2015 kalite yönetim standardını uygulamaktadır.",
+    hotP6:
+      "Güvenilir ve uzun vadeli müşteri ilişkileri kurarak birinci sınıf ürünler sunmak amacıyla çalışmalarını sürdüren firmamız, bu doğrultuda en son teknoliji ve standartlara göre sistemini güncelleyerek dünya tarafından tanınan bir firma olmayı kendine hedef edinmektedir.",
+    //Katalog
+    katalogP1:
+      'Katalog ve Broşürlerimizin genel içerikleri aşağıdaki bölümler içerisinde ürün grubu bazında listelenmiştir. İlgilendiğiniz konuya ait katalog ve broşürün detayına ulaşmak için "DOSYA İNDİR" butonuna basınız.',
+    productCatalogue: "Ürün Katalogları",
+    mafsalKatalog: "Mafsal İstavrozları Kataloğu",
+    kardanKatalog: "Endüstriyel Kardan Milleri Kataloğu",
+    brochure: "Broşürler",
+    companyIntro: "Firma Tanıtım Kataloğu",
+    katalogTractor: "Traktör Yedek Parçaları Broşürü",
+    sertifika: "Sertifikalar",
+    //İletişim
+    reachUs: "Bize Ulaşın",
+    contactTitle1: "İhracat ve İthalat",
+    contactTitle2: "Yurtiçi Satış / Satın Alma / İnsan Kaynakları",
+    contactTitle3: "Kalite / Lojistik",
+    contactTitle4: "Muhasebe",
+    send: "Gönder",
+    //Ana sayfa
+    homeP1:
+      "Şirketimizin tarihi Türkiye'de otomotiv sektöründe yedek parça tedariği sıkıntısının görüldüğü 1960'lı yıllara dayanır. Kurucumuz rahmetli Bilal DEMİREL'in öncülüğünde 1960'lı yılların ortalarında Demireller Makina-Tekstil San ve Tic. A.Ş. ...",
+    homeP2:
+      "Demireller Kardan kendi alanında en güvenilir kurumlar arasında yer almayı yönetim politikasının en temel prensibi olarak benimsemiştir. Firmamızın birincil ilkesi sınırsız rekabet ortamı içinde, yasalar ve standartlardan şaşmadan sürekli güncel teknolojileri yakalayarak sektöre",
+    homeP3:
+      'Katalog ve Broşürlerimizin genel içerikleri aşağıdaki bölümler içerisinde ürün grubu bazında listelenmiştir. İlgilendiğiniz konuya ait katalog ve broşürün detayına ulaşmak için "DOSYA İNDİR" butonuna basınız.',
+    more: "Daha Fazla",
+    banner:
+      "19-21 Eylül 2024 tarihinde Ankiros fuarında Hall5 B-177 standımıza bekleriz",
+    collage:
+      "50 yılı aşkın tecrübeyle yüksek kaliteli yedek parça ortağınız olmaya devam ediyoruz...",
+    sliderMessage:
+      "15 - 210 mm Rulman Ölçülerinde Taşıt ve Makinalar için Mafsal İstavrozu Çözümleri",
   },
 };

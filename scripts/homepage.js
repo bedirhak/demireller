@@ -137,20 +137,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Slider mesajlarını içeren bir obje
   const sliderMessages = {
-    0: "15 - 210 mm Rulman Ölçülerinde Taşıt ve Makinalar için Mafsal İstavrozu Çözümleri",
-    1: "340kNm Max. Torka Kadar Endüstriyel Uygulamalar İçin Kardan Milleri",
-    2: "Güvenilir Traktör Yedek Parça Tedarikçiniz",
-    3: "Sıcak & Soğuk Dövmede Çözüm Ortağınız",
+    tr: {
+      0: "15 - 210 mm Rulman Ölçülerinde Taşıt ve Makinalar için Mafsal İstavrozu Çözümleri",
+      1: "340kNm Max. Torka Kadar Endüstriyel Uygulamalar İçin Kardan Milleri",
+      2: "Güvenilir Traktör Yedek Parça Tedarikçiniz",
+      3: "Sıcak & Soğuk Dövmede Çözüm Ortağınız",
+    },
+    en: {
+      0: "Universal Joint Kit Solutions for Vehicles and Machinery with Bearing Dimensions of 15 - 210 mm",
+      1: "Cardan Shafts for Industrial Applications Up to 340kNm Max. Torque",
+      2: "Your Reliable Tractor Spare Parts Supplier",
+      3: "Your Solution Partner in Hot & Cold Forging",
+    },
   };
 
   // Slider event'ine listener ekliyoruz
   $("#carouselExampleIndicators").on("slide.bs.carousel", function (e) {
     // Geçiş yapılacak index numarasını alıyoruz
     const nextSlideIndex = $(e.relatedTarget).index();
+    let currentLang = localStorage.getItem("selectedLang") || "tr";
 
     // Eğer obje içerisinde bu index varsa mesajı güncelliyoruz
-    if (sliderMessages[nextSlideIndex]) {
-      $(".slider-message p").text(sliderMessages[nextSlideIndex]);
+    if (sliderMessages[currentLang][nextSlideIndex]) {
+      console.log("Slider", sliderMessages[currentLang][nextSlideIndex]);
+      $(".slider-message p").text(sliderMessages[currentLang][nextSlideIndex]);
     }
   });
 });
