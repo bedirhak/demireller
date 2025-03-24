@@ -93,12 +93,77 @@ const translations = {
     mafsalP6:
       "For more information about universal joint kits, please see our product catalogue.",
     montajType: "Universal Joint Kits Executions",
+    yagType: "Lubrication Type",
+    application: "Application",
     mafsal1: "External Circlip",
     mafsal2: "Internal Circlip",
     mafsal3: "Loose plates with 2 or 3 bolt holes",
     mafsal4: "2 External Circlips & 2 Brackets ",
     mafsal5: "Slotted Bearing Design ",
     mafsal6: "Mechanics",
+    mafsal7: "Non Lubricated",
+    mafsal8: "Lubricated- Side",
+    mafsal9: "Lubricated- Centre",
+    mafsal10: "Lubricated- Bearing Cup",
+    mafsal11: "Lubricated- 2xBearing Cups",
+    mafsal12: "Lubricated- 4xBearing Cups",
+    mafsal13: "Automotive Industry Series Bearing Diameter: Ø15mm - Ø68mm",
+    mafsal14: "Industrial Application Series Bearing Diameter: Ø65mm - Ø210mm",
+    mafsal15: "Mechanic Series 5C - 15C",
+    mafsalP7:
+      "Needle roller bearings that we produce in our facilities consist of;",
+    mafsalP8:
+      "The cylindrical outer surface and the inner surfaces where the needles work are ground, the construction is made in a way that provides minimum variation in wall thickness and optimum load distribution, and the bearing cups is made of cold forged and machined DIN 16MnCr5 or SAE 8620 steel material,",
+    mafsalP9:
+      "Spring sheet metal washers manufactured from Ck75 steel material in various thicknesses, which prevent the needle rollers from falling during assembly by keeping them in the correct position,",
+    mafsalP10:
+      "Protective dust seals against coarse contaminants such as slag, dust, etc.",
+    mafsalP11:
+      "Nitrile or Viton seals manufactured to protect the joint cross supported by a steel ring from solid particles and water,",
+    mafsalP12:
+      "Washers made of polymer material with oil flow channels to absorb axial load shocks,",
+    mafsalP13:
+      "Made of 100Cr6 material, G5 quality needle rollers with ground surfaces,",
+    mafsalP14: "",
+    // Industrial Cardan Shafts
+    kardanPart: "Industrial Cardan Shafts and Parts",
+    kardanP1:
+      "Thanks to our company experience of over 30 years, the cardan shafts we produce and maintain in our facilities with manufacturing technology that makes the product cost extremely low compared to its quality, offer maximum operating safety, high service life and low operating costs.",
+    kardanP2:
+      "With the production technology our company has, we can produce standard products as well as special designs received from our customers. After the welded products are checked, they are balanced according to the G16 DIN ISO 1940 standard and subjected to a lubrication process before painting.",
+    kardanP3:
+      "Cardan shafts produced by our specialized team that allows us to offer short delivery times are used in cold and hot rolling mills, paper and plastic mills, ships and power plants, mixers, pumps, cranes, conveyor systems, railways, mining and transportation industries, etc.",
+    kardanP4:
+      "In order to respond quickly and competitively to customer requirements from design to painting, our company applies the DIN EN ISO 9001:2015 quality management standard in every process of production.",
+    kardanP5:
+      "We manufacture and maintain fixed and extended cardan shafts. Transmittable torque up to 300kNm and flange diameter up to 390mm can be offered for closed bearing eye cardan shafts, used in mobile sector and general mechanical engineering applications, and split bearing eye cardan shafts, used in heavy duty applications.",
+    kardanP6:
+      "Tube and flange yokes are manufactured by forging, casting, or machining method depending on the application. Joint crosses are manufactured from case hardened steels resistant to variable and impact loads by forging method as well as the sliding shaft and sleeve are manufactured from alloyed and unalloyed steels.",
+    kardanP7:
+      "For more information on industrial cardan shafts, please see our product catalogue.",
+    kardanTitle1: "Cardan Shafts With Closed Bearing Eye Yokes",
+    kardanTitle2: "Cardan Shafts With Split Bearing Eye Yokes",
+    kardanTitle3: "Short Type Cardan Shafts",
+    kardanTitle4: "Fixed, Double Joints and Companion Flanges",
+    kardanTitle5: "Flange Yokes",
+    kardanTitle6: "Universal Joint Kits",
+    kardan1: "Max torque between 25kNm-320kNm",
+    kardan2: "Flange diameters between Ø225mm-Ø390mm",
+    kardan3: "Sliding or fixed types",
+    kardan4: "Types with friction or face key connection",
+    kardan5: "Max torque between 36kNm-340kNm",
+    kardan6: "Flange diameters between Ø225mm-Ø435mm",
+    kardan7: "Sliding or fixed types",
+    kardan8: "Types with friction or face key connection",
+    kardan9: "Sliding types",
+    kardan10: "Types with friction or face key connection",
+    kardan11: "Fixed and double joints between Ø225mm-Ø435mm",
+    kardan12: "Companion flanges between Ø225mm-Ø435mm",
+    kardan13: "DIN and SAE type flanges between Ø225mm-Ø435mm",
+    kardan14:
+      "Types with friction, face key, hirt-serration and dog teeth connection",
+    kardan15: "Split Bearing Eye design between Ø65mm-Ø170mm",
+    kardan16: "Closed Bearing Eye design between Ø72mm-Ø210mm",
   },
 
   tr: {
@@ -194,11 +259,75 @@ const translations = {
     mafsalP6:
       "Mafsal istavrozları hakkında daha fazla bilgi için lütfen ürün kataloğumuza bakınız.",
     montajType: "Mafsal İstavrozları Uygulamaları ",
+    yagType: "Yağlama Tipi",
+    application: "Uygulama",
     mafsal1: "Dıştan Segmanlı",
     mafsal2: "İçten Segmanlı",
     mafsal3: "2 veya 3 Delik Plakalı",
     mafsal4: "2 adet segmanlı & 2 adet Braketli",
     mafsal5: "Yüksükleri Kanallı ",
     mafsal6: "Mekanik",
+    mafsal7: "Kuru",
+    mafsal8: "Yandan Gresörlüklü",
+    mafsal9: "Ortadan Gresörlüklü",
+    mafsal10: "Yüksükten Gresörlüklü",
+    mafsal11: "2x Yüksükten Gresörlüklü",
+    mafsal12: "4x Yüksükten Gresörlüklü",
+    mafsal13: "Otomotiv Endüstri Serileri Yüksük Çapı: Ø15mm - Ø68mm",
+    mafsal14: "Endüstriyel Uygulama Serileri Yüksük Çapı: Ø65mm - Ø210mm",
+    mafsal15: "Mekanik Seriler 5C - 15C",
+    mafsalP7:
+      "Tesislerimizde üretimini gerçekleştirdiğimiz iğne bilyalı rulmanlar;",
+    mafsalP8:
+      "Silindirik dış yüzey ve bilyaların çalıştığı iç yüzeyler taşlanmış, et kalınlığında minimum değişkenliğin olduğu ve optimum yük dağılımını karşılayacak şekilde konstrüksiyonu yapılarak DIN 16MnCr5 veya SAE 8620 çelik malzemeden soğuk dövülmüş ve işlenmiş yüksükten,",
+    mafsalP9:
+      "İğne bilyaları doğru konumda tutarak montaj esnasında düşmeleri engelleyen Ck75 çelik malzemesinden değişik kalınlıklarda imal edilen yaylı saç pullardan,",
+    mafsalP10:
+      "Curuf, toz, vb. gibi kaba kirleticilere karşı koruyucu toz keçelerden,",
+    mafsalP11:
+      "Yüksek radyal sertlik temini amacıyla saç bilezikle desteklenmiş mafsal istavrozunu katı parçacıklardan ve sudan korumak amacıyla imal edilmiş Nitril veya Viton saç keçelerden,",
+    mafsalP12:
+      "Eksenel yük şoklarını sönümlemek amacıyla üzerinde yağ akış kanallarının olduğu polimer malzemeden imal edilen taban pullarından,",
+    mafsalP13:
+      "100Cr6 malzemeden G5 kalitesinde yüzeyleri taşlanmış iğne bilyalardan,",
+    mafsalP14: "oluşmaktadır.",
+    // Endüstriyel Kardan Milleri
+    kardanPart: "Endüstriyel Kardan Milleri ve Parçaları",
+    kardanP1:
+      "30 yılı aşkın şirket tecrübemiz sayesinde ürün maliyetini, kalitesine kıyasla son derece düşük kılan imalat teknolojisine sahip tesislerimizde ürettiğimiz ve bakım faaliyetlerini gerçekleştirdiğimiz kardan milleri azami çalışma güvenliği, yüksek hizmet ömrü ve düşük işletme maliyetleri sunmaktadır.",
+    kardanP2:
+      "Firmamızın sahip olduğu üretim teknolojisiyle standard ürünlerin yanısıra müşterilerimizden gelebilecek özel isteklerine göre de imalat yapabilmekteyiz. Kaynağı yapılan ürünlerin kontrolleri yapıldıktan sonra G16 DIN ISO 1940 standardına göre balanslanarak boya öncesi yağlama işlemine tabi tutulmaktadırlar.",
+    kardanP3:
+      "Kısa teslim süreleri sunmamıza imkan veren müşteri memnuniyeti odaklı uzmanlaşmış ekibimizle üretilen kardan milleri soğuk ve sıcak haddehanelerde, kağıt ve plastik fabrikalarında, gemi ve enerji santrallerinde, mikserlerde, pompalarda, vinçlerde, konveyör sistemlerinde, demiryollarında, madencilik ve taşıma endüstrilerinde, v.s kullanılmaktadır.",
+    kardanP4:
+      "Tasarımından boyamaya müşteri gereksinimlerine hızlı ve rekabetçi yanıt verebilmemiz için firmamız üretimin her sürecinde DIN EN ISO 9001:2015 kalite yönetim standardını uygulamaktadır.",
+    kardanP5:
+      "Uzamalı ve sabit boylu kardan millerinin imalatını ve bakımlarını gerçekleştirmekteyiz. Mobil sektörde & genel makine mühendisliği uygulamalarında kullanılan segmanlı tip ve ağır hizmet uygulamalarında kullanılan kepli tip versiyonlarında tesislerimizde üretim ve bakım gerçekleştirilen kardan millerinin iletilebilir torku Max. 300 kNm ve flanş çapları 390mm ye kadar çıkabilmektedir.",
+    kardanP6:
+      "Tüp ve Flanşlı çatallar uygulamaya bağlı olarak dövme, döküm veya kütük su verilmiş ve temperli çelik malzemeden işleme yöntemiyle üretilmektedir. Mafsal istavrozlar değişken ve darbeli zorlamalara dayanıklı sementasyon çeliklerinden dövme yöntemiyle, kayıcı mil ve kovan alaşımlı ve alaşımsız çeliklerden imal edilmektedirler.",
+    kardanP7:
+      "Endüstriyel kardan milleri hakkında daha fazla bilgi için lütfen ürün kataloğumuza bakınız.",
+    kardanTitle1: "Segmanlı Tip Kardan Milleri",
+    kardanTitle2: "Kepli Tip Kardan Milleri",
+    kardanTitle3: "Kısa Tip Kardan Milleri",
+    kardanTitle4: "Sabit, Çift Mafsallar ve Ara flanşlar",
+    kardanTitle5: "Flanşlı Çatallar",
+    kardanTitle6: "Mafsal İstavrozları",
+    kardan1: "25kNm-320kNm arası max. tork",
+    kardan2: "Ø225mm-Ø390mm arası flanş çapları",
+    kardan3: "Kayıcılı veya kayıcısız tipler",
+    kardan4: "Kamalı veya kamasız tipler",
+    kardan5: "6kNm-340kNm arası max. tork",
+    kardan6: "Ø225mm-Ø435mm arası flanş çapları",
+    kardan7: "Kayıcılı veya kayıcısız tipler",
+    kardan8: "Kamalı veya kamasız tipler",
+    kardan9: "Kayıcılı tipler",
+    kardan10: "Kamalı veya kamasız tipler",
+    kardan11: "Ø225mm-Ø435mm arası sabit ve çift mafsallar",
+    kardan12: "Ø225mm-Ø435mm arası ara flanşlar",
+    kardan13: "DIN ve SAE tip Ø225mm-Ø435mm arası flanşlar",
+    kardan14: "Kamalı, kamasız, kurt ağızlı ve tırtıklı tipler",
+    kardan15: "Ø65mm-Ø170mm arası kepli tipler",
+    kardan16: "Ø72mm-Ø210mm arası segmanlı tipler",
   },
 };
