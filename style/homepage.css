@@ -44,9 +44,28 @@ body {
   color: gray;
 }
 
+.dk-header .languages-list {
+  display: flex;
+  gap: 10px;
+}
+
 .dk-header .languages-list li {
   list-style-type: none;
-  font-family: "Oxanium", sans-serif;
+  /* font-family: "Oxanium", sans-serif; */
+  line-height: 16px;
+  height: 16px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+}
+
+.dk-selected-lang {
+  color: #e5247b !important;
+}
+
+.dk-header .languages-list li:first-of-type {
+  padding-right: 10px;
+  border-right: 2px solid black;
 }
 
 .dk-nav {

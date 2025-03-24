@@ -11,8 +11,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -29,17 +27,14 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style/normalization.css">
-
   <script src="./scripts/slider.js"></script>
   <script src="./scripts/homepage.js"></script>
-
+  <script src="./scripts/config.js"></script>
+  <script defer src="./scripts/script.js"></script>
 </head>
 
 <body id="dk-body">
-
-
   <div class="dk-top">
-
     <header class="dk-header">
       <div class="logo">
         <img src="assets/images/logoYatay.png" alt="Demireller Logo">
@@ -49,7 +44,8 @@
           <i class="fa-solid fa-globe"></i>
         </div>
         <ul class="languages-list">
-          <li>TR</li>
+          <li class="dk-lang-tr dk-selected-lang" data-lang-code="tr">TR</li>
+          <li class="dk-lang-en" data-lang-code="en">EN</li>
         </ul>
       </div>
     </header>
@@ -59,41 +55,38 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Ana Sayfa </a>
+            <a class="nav-link" href="#" data-lang="menuHome"></a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Kurumsal
+            <a class="nav-link dropdown-toggle" data-lang="menuCorporate" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="about.html">Hakkımızda</a>
-              <a class="dropdown-item" href="history.html">Tarihçe</a>
-              <a class="dropdown-item" href="quality.html">Kalite</a>
-              <a class="dropdown-item" href="worldWide.html">Dış Pazarlar</a>
+              <a class="dropdown-item" data-lang="menuAbout" href="about.html"></a>
+              <a class="dropdown-item" data-lang="menuHistory" href="history.html"></a>
+              <a class="dropdown-item" data-lang="menuQuality" href="quality.html"></a>
+              <a class="dropdown-item" data-lang="menuWorldwide" href="worldWide.html"></a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Ürünler
+            <a class="nav-link dropdown-toggle" data-lang="menuProduct" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="mafsalIstafroz.html">Mafsal İstavrozları</a>
-              <a class="dropdown-item" href="kardanMiller.html">Endüstriyel Kardan Milleri</a>
-              <a class="dropdown-item" href="traktor.html">Traktör Yedek Parçaları</a>
-              <a class="dropdown-item" href="hotCold.html">Sıcak & Soğuk Dövme</a>
+              <a class="dropdown-item" data-lang="menuMafsal" href="mafsalIstafroz.html"></a>
+              <a class="dropdown-item" data-lang="menuKardan" href="kardanMiller.html"></a>
+              <a class="dropdown-item" data-lang="menuTractor" href="traktor.html"></a>
+              <a class="dropdown-item" data-lang="menuHot" href="hotCold.html"></a>
             </div>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="catalog.html">Katalog ve Broşürler </a>
+            <a class="nav-link" data-lang="menuCatalog" href="catalog.html"> </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html">İletişim </a>
+            <a class="nav-link" data-lang="menuContact" href="contact.html"> </a>
           </li>
         </ul>
       </div>
@@ -132,7 +125,6 @@
   </div>
 
   <div class="dk-main-container">
-
     <div class="dk-timeline-slider">
       <div class="dk-product-texts">
         <ul>
@@ -179,21 +171,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Slider dots -->
-
-    <!-- <div class="dk-dots-container">
-      <span class="dk-dot dk-active" date-yerar="1870"></span>
-      <span class="dk-dot" date-yerar="1961"></span>
-      <span class="dk-dot" date-yerar="1970"></span>
-      <span class="dk-dot" date-yerar="1870"></span>
-      <span class="dk-dot" date-yerar="1870"></span>
-      <span class="dk-dot" date-yerar="1870"></span>
-      <span class="dk-dot" date-yerar="1870"></span>
-      <span class="dk-dot" date-yerar="1870"></span>
-      <div class="dk-dots-line"></div>
-    </div> -->
-
   </div>
 
   <div class="dk-timeline-popup">
@@ -205,7 +182,6 @@
   </div>
 
   <div class="dk-main-container-bottom">
-
     <div class="dk-timeline-dots">
       <div class="dk-timeline-dot" data-year="1870"> <span> 1870 </span></div>
       <div class="dk-timeline-dot" data-year="1961"> <span> 1961 </span></div>
@@ -274,22 +250,24 @@
         <img src="assets/images/logoDikey.png" alt="Demireller Logo">
       </div>
       <div class="dk-footer-contact">
-        <h6 class="dk-footer-heading dk-main-blue">İletişim</h6>
-        <p class="dk-footer-address">Hanlı Merkez Mahallesi Hanlı / 1 Nolu Sokak No: 80/A 54580 Arifiye/Sakarya</p>
+        <h6 class="dk-footer-heading dk-main-blue" data-lang="menuContact"></h6>
+        <p class="dk-footer-address">Hanlı Merkez Mahallesi Hanlı / 1 Nolu Sokak No: 80/A 54580 Arifiye/Sakarya
+        </p>
         <div class="dk-footer-contact">
-          <p>Telefon: +90 (264) 666 1911</p>
-          <p>Fax: +90 (264) 666 1910</p>
-          <p>E-Posta: <a href="mailto:info@demirellerkardan.com.tr"><span
+          <p><span data-lang="phone"></span>: +90 (264) 666 1911</p>
+          <p><span data-lang="fax"></span>: +90 (264) 666 1910</p>
+          <p><span data-lang="email"></span>: <a href="mailto:info@demirellerkardan.com.tr"><span
                 class="dk-main-blue dk-footer-main">info@demirellerkardan.com.tr</span></a></p>
         </div>
       </div>
       <div class="dk-footer-products">
-        <h6 class="dk-footer-heading dk-main-blue">Ürünler</h6>
+        <h6 class="dk-footer-heading dk-main-blue" data-lang="menuProduct"></h6>
         <ul>
-          <li class="dk-footer-links"><a href="mafsalIstafroz.html">Mafsal İstavrozları</a></li>
-          <li class="dk-footer-links"><a href="kardanMiller.html">Endüstriyel Kardan Milleri</a></li>
-          <li class="dk-footer-links"><a href="traktor.html">Traktör Yedek Parçaları</a></li>
-          <li class="dk-footer-links"><a href="hotCold.html">Sıcak & Soğuk Dövme</a></li>
+          <li class="dk-footer-links"><a href="mafsalIstafroz.html" data-lang="menuMafsal"></a></li>
+          <li class="dk-footer-links"><a href="kardanMiller.html" data-lang="menuKardan"></a></li>
+          <li class="dk-footer-links"><a href="traktor.html" data-lang="menuTractor"></a></li>
+          <li class="dk-footer-links"><a href="hotCold.html" data-lang="menuHot"></a>
+          </li>
         </ul>
       </div>
       <div class="dk-footer-social">
@@ -302,8 +280,6 @@
       <a title="Başa Dön" class="dk-go-top" href="#dk-body"><i class="fa-solid fa-square-caret-up"></i> </a>
     </div>
   </footer>
-
-
 </body>
 
 </html>
