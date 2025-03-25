@@ -101,8 +101,8 @@ const translations = {
     mafsal4: "2 External Circlips & 2 Brackets ",
     mafsal5: "Slotted Bearing Design ",
     mafsal6: "Mechanics",
-    mafsal7: "Non Lubricated",
-    mafsal8: "Lubricated- Side",
+    mafsal7: "ㅤㅤNonㅤㅤ Lubricated",
+    mafsal8: "Lubricated- ㅤSideㅤ",
     mafsal9: "Lubricated- Centre",
     mafsal10: "Lubricated- Bearing Cup",
     mafsal11: "Lubricated- 2xBearing Cups",
@@ -124,7 +124,7 @@ const translations = {
       "Washers made of polymer material with oil flow channels to absorb axial load shocks,",
     mafsalP13:
       "Made of 100Cr6 material, G5 quality needle rollers with ground surfaces,",
-    mafsalP14: "",
+    mafsalP14: " ",
     // Industrial Cardan Shafts
     kardanPart: "Industrial Cardan Shafts and Parts",
     kardanP1:
