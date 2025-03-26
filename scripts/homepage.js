@@ -116,7 +116,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // İçeriği bul ve pop-up'ı güncelle
       if (timelineData[year]) {
-        popupImage.src = `./assets/images/homepage/${year}.png`;
+        const selectedLang = localStorage.getItem("selectedLang") || "tr";
+
+        const langSuffix = selectedLang === "en" ? "en" : "";
+        popupImage.src = `./assets/images/homepage/${year}${langSuffix}.png`;
 
         // Pop-up'ı görünür yap
         setTimeout(() => {
