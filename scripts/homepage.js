@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const selectedLang = localStorage.getItem("selectedLang") || "tr";
 
         const langSuffix = selectedLang === "en" ? "en" : "";
-        popupImage.src = `./assets/images/homepage/${year}${langSuffix}.png`;
+        popupImage.src = `./assets/images/homepage/banners/${year}${langSuffix}.jpeg`;
 
         // Pop-up'ı görünür yap
         setTimeout(() => {

@@ -21,36 +21,36 @@ const translations = {
     //About Us
     aboutTitle: "About Us",
     aboutP1:
-      "The history of our company dates back to the 1970s when there was a shortage of spare parts supply in the automotive sector in Turkey. Under the leadership of our founder, Bilal DEMİREL, Demireller Makina-Tekstil San. ve Tic. A.Ş. was established in the mid-1970s to produce universal joint kits and tractor spare parts.",
+      "The history of our company dates back to the 1970s when there was a shortage of spare parts in the automotive sector in Turkey. Under the leadership of our founder, Bilal DEMİREL, Demireller Makina-Tekstil San. ve Tic. A.Ş. was established in the mid-1970s to produce universal joint kits and tractor spare parts. ",
     aboutP2:
-      "In the following years, with increasing experience, products such as cardan shafts for commercial vehicles and industrial applications, and hot & cold forged parts were added to our company's product range.",
+      "In the following years, with increasing experience, products such as cardan shafts for commercial vehicles and industrial applications and hot and cold forged parts were added to the company's product range.",
     aboutImage:
       "In the 1970s, our decedent chairman of the board, Osman DEMİREL, with his employees during the manufacturing of a waste incinerator.",
     aboutP3:
-      "In 2007, it continued its operations with the newly established company named Demireller Kardan Milleri ve İş Makinaları San. Ve Tic. Ltd. Şti. in order to develop cardan shafts and spare parts, control production & marketing activities and strengthen its position in domestic and foreign markets.",
+      "In 2007, the company continued its activities under the name of Demireller Kardan Milleri ve İş Makinaları San. Ve Tic. Ltd. Şti. to develop cardan shafts and spare parts, to control production and marketing activities and to strengthen its position in domestic and foreign markets. ",
     aboutP4:
-      "Our company, which is accepted as one of the leading organizations at the national level in the production of cardan shafts and tractor spare parts with more than 30 employees, is proud to supply quality products according to customer needs in the domestic and foreign markets.",
+      "Our company, which is recognised as one of the leading organisations at national level in the production of cardan shafts and tractor spare parts with more than 30 employees, is proud to supply quality products according to customer needs in the domestic and foreign markets. ",
     aboutP5:
-      "Our company continuously invests in production and marketing operations to ensure the development of new customers and meet different delivery conditions.",
+      "Our company continuously invests in production and marketing activities to ensure the development of new customers and to meet different delivery conditions.",
     aboutP6:
-      "The production facility, equipped with advanced technology for spare parts production, is located in Sakarya, a city in the Marmara region of Turkey, on an area of 12,000 m², 5,000 m² of which is closed.",
+      "The production facility, equipped with advanced technology for spare parts production, is located in Sakarya, a city in the Marmara region of Turkey, on an area of 12,000 m², of which 5,000 m² is closed. ",
     //History
     history1870:
-      "With the entrepreneurship of our grandfather Demirci Ali Usta, one of the Mısırlızades born in 1790, the DEMİRELLER family started to deal with blacksmithing and various steel material manufacturing. Tools such as pickaxes and rifles were manufactured in line with market needs. After 1920, with the prohibition of rifle manufacturing during the Republic period, the manufacturing of weighing instruments became the main production area.",
+      "With the entrepreneurial spirit of our grandfather Demirci Ali Usta, one of the Mısırlızades, born in 1790, the DEMİRELLER family started to deal with blacksmithing and the production of various steel materials. Tools such as pickaxes and rifles were produced according to the needs of the market. After 1920, when the production of rifles was banned during the Republican period, the production of weighing instruments became the main production area.",
     history1961:
-      "In line with the new market needs, Bilal DEMİREL came to Adapazarı and continued the production of weighing devices in this province. In 1963, he came together with his younger brother Osman DEMİREL and in 1967 with his older brother Hasan DEMİREL and started to participate in national tenders for machine manufacturing works. Water tanks, incinerators, beds, and trailers were some of the products that were won and produced by the brothers.",
+      "According to the new market needs, Bilal DEMİREL came to Adapazarı and continued the production of weighing equipment in this province. In 1963, together with his younger brother Osman DEMİREL and in 1967 with his elder brother Hasan DEMİREL, he began to participate in national tenders for the manufacture of machinery. Water tanks, incinerators, beds and trailers are some of the products that the brothers won and manufactured through tenders.",
     history1970:
-      "Mahmut DEMİREL joins the management. As a result of the increasing in market demand for cardan shafts and tractor spare parts, it was seen that the company needed to operate in these areas, and investments were made in this direction.",
+      "Mahmut DEMİREL joins the management. As a result of the increasing market demand for cardan shafts and tractor spare parts, it was realized that the company needed to be active in these areas, investments were made in this direction and production was started. Spare parts for tractor seats, bumpers, joints, etc. are some of the products manufactured by our company at that time.",
     history1979:
       "A company named Demireller Makine San. ve Tic. A.Ş. is established.",
     history1990:
-      "In proportion to the population growth, the demands in the transportation sector have increased, and therefore the repair and maintenance inadequacy in the railways has created an opportunity for companies to invest in this area. For this reason, our company has decided to build new facilities and establish the Wagon Maintenance department. By participating in national tenders, various types of maintenance, repair and passenger seat manufacturing have been carried out.",
+      "As the population has grown, so has the demand for transport, and the inadequacy of railway repair and maintenance has created an opportunity for companies to invest in this area. For this reason, our company has built new facilities and established the Wagon Maintenance & Repair Department and incorporated it into the Group. By participating in national tenders, the maintenance and repair of various types of passenger and generator coaches, passenger seats, bogie bodies and various spare parts have been manufactured in our facilities.",
     history1998:
-      "Due to Türkiye’s position in textile sector, the decision was made to operate in home textiles as well and the company name was changed to Demireller Makine-Tekstil San. ve Tic. A.Ş.",
+      "Due to Türkiye's position in the textile sector, it was decided to also operate in the home textiles sector and the company name was changed to Demireller Makine-Tekstil San. ve Tic. A.Ş. During these years, our company also carried out R&D studies on construction machinery and manufactured a number of products.",
     history2003:
-      "Our company, together with its three partners, acquired Başak Traktör İş ve Tarım Makineleri San. Ve Tic. A.Ş. as a result of privatization. Our participation was ended by selling it to SANKO Holding in 2012.",
+      "Our Company, together with its three partners, acquired Başak Traktör İş ve Tarım Makineleri San. ve Tic. A.Ş as a result of privatisation. In 2012, our participation ended with the sale to SANKO Holding.",
     history2007:
-      "In addition to the production of universal joint kits, it was decided to also engage in the production and maintenance activities of cardan shaft and its spare parts in line with the demands from our customers. A company was established under the name of Demireller Kardan Milleri ve İş Makinaları San. Ve Tic. Ltd. Şti.",
+      "The company was established under the name of Demireller Kardan Milleri ve İş Mak San ve Tic Ltd Şti with the aim of manufacturing and servicing cardan shafts according to customer requirements, in addition to the production of universal joint kits and tractor spare parts.",
     establisher: "Our Founder, The Late Bilal Demirel",
     historyImage1:
       "Our Former Chairman of the Board, Osman Demirel, together with his employees.",
@@ -62,36 +62,36 @@ const translations = {
     historyImage5: "Weaving line view",
     //Quality
     qualityP1:
-      "Demireller Kardan has adopted being among the most reliable institutions in its field as the most basic principle of its management policy. The primary principle of our company is to provide the best product and service to the customer on time, in an unlimited competitive environment, without deviating from the laws and standards, based on continuous development, with its trained staff focused on customer satisfaction.",
+      "Demireller Kardan has adopted being among the most reliable institutions in its field as the most basic principle of its management policy. The main principle of our company is to provide the best product and service to the customer on time, in an unlimited competitive environment, without deviating from the laws and standards, based on continuous development, with its trained staff focused on customer satisfaction",
     qualityP2:
-      "Demireller Kardan carries out its design, manufacturing and testing activities in accordance with international standards and applies the TS-EN-ISO 9001: 2015 standard at every stage of production in order to effectively meet customer needs and expectations of products and services, to ensure continuous improvement by complying with relevant legal regulations and to ensure the correct, effective and efficient use of our resources.",
+      "Demireller Kardan carries out its design, manufacturing and testing activities in accordance with international standards and applies the TS-EN-ISO 9001: 2015 standard at every stage of production in order to effectively meet customer needs and expectations for products and services, to ensure continuous improvement by complying with relevant legal regulations and to ensure the correct, effective and efficient use of our resources",
     qualityP3:
-      "Keeping efficiency, effectiveness, productivity and quality at the forefront is one of our priorities. By using all communication tools to the fullest, with an organizational model where our employees are an active part of our activities, continuous improvement of quality and product supply without any nonconformities are guaranteed and maintained.",
+      "Keeping efficiency, effectiveness, productivity and quality at the forefront is one of our priorities. By making full use of all communication tools, with an organisational model in which our employees are an active part of our activities, continuous improvement in quality and non-conforming product supply is guaranteed and maintained.",
     qualityP4:
-      "In order to ensure that product quality and reliability are maintained throughout the life of the product with the awareness and importance of customer satisfaction, our R&D department is equipped with CAD/CAM technology and our quality control department with primary measurement devices. All molds and apparatus used in production are manufactured inhouse.",
+      "Keeping efficiency, effectiveness, productivity and quality at the forefront is one of our priorities. By making full use of all communication tools, with an organisational model in which our employees are an active part of our activities, continuous improvement in quality and non-conforming product supply is guaranteed and maintained.",
     qualityP5:
-      "As a company that works as a business partner with all our stakeholders, follows the latest technology, invests in high-quality production systems and environmentally friendly working conditions, we will continue to contribute to the country's economy without compromising on any of our promises.",
+      "As a company that works as a business partner with all our stakeholders, follows the latest technology, invests in high quality production systems and environmentally friendly working conditions, we will continue to contribute to the country's economy without compromising on any of our promises.",
     //Worldwide
     worldwideP1:
-      "With over 50 years of experience, our company operates in the automotive and tractor spare parts industry and has been globally accepted . It has become a reliable brand preferred in more than 20 countries on 4 continents.",
+      "With over 50 years of experience, our company operates in the automotive and tractor spare parts industry and has been accepted worldwide. It has become a reliable brand preferred in more than 20 countries in 4 continents. ",
     worldwideP2:
-      "Demireller Kardan, which has a production approach that emphasizes high standards and customer satisfaction, aims to offer high value-added products to its current and potential customers, which will further strengthen its position in the world market and enable it to compete with leading spare parts manufacturers.",
+      "Demireller Kardan, which has a production approach that emphasises high standards and customer satisfaction, aims to provide its current and potential customers with high value￾added products that will further strengthen its position in the world market and enable it to compete with leading spare parts manufacturers",
     //Joint Kits
     overview: "Overview",
     type: "Universal Joint Kits Types",
     needle: "Needle Roller Bearings",
     mafsalP1:
-      "Demireller Kardan manufactures universal joint kits for automotive and industrial applications in various series, sizes and configurations. To carry out production by designing products that can pass all strength and fatigue tests in order to reduce maintenance costs makes us qualified business partners for our customers.",
+      "Demireller Kardan manufactures universal joint kits for automotive and industrial applications in various series, sizes and configurations. Designing and manufacturing products that pass all strength and fatigue tests to reduce maintenance costs makes us a qualified business partner for our customers",
     mafsalP2:
-      "Internal and external locked types, mechanical types, offset types and industrial types are the ones in our product range. In addition to these, due to the flexibility in the production line, we can also produce different types of universal joint kits that may come from our customers.",
+      "Our product range includes internal and external types, mechanical types, offset types and industrial types. In addition, due to the flexibility of the production line, we can also manufacture various types of universal joint kits that may be required by our customers. ",
     mafsalP3:
-      "The joint cross bodies are hot formed, while the cold forming and machining method is applied in the production of the bearing cups. Demireller Kardan, with its years of experience and expertise, carries out the production of all bearings used in universal joint kits inhouse in order to be able to offer products at competitive prices, and uses advanced sealing methods consisting of Nitrile or Viton seals to ensure that the bearings remain free from dirt and dust.",
+      "The joint cross bodies are hot formed, while the bearing cups are produced by cold forming and machining. Demireller Kardan, with its many years of experience and expertise, manufactures all the bearings used in the universal joint kits in-house in order to offer products at competitive prices, and uses advanced sealing methods consisting of Nitrile or Viton seals to ensure that the bearings remain free from dirt and dust. ",
     mafsalP4:
-      "In addition to lubricated types, service free versions are also included in our product groups.",
+      "In addition to lubricated types, maintenance-free versions are also included in our product ranges.",
     mafsalP5:
-      "In order to supply high quality products to meet increasing quality levels, the joint cross bodies are manufactured from high alloy, impact resistant steel material. The bearing cups and body hardness, hardness depth and core hardness are meticulously controlled during the production process.",
+      "In order to provide high quality products to meet increasing quality requirements, the joint cross bodies are manufactured from high alloy, impact resistant steel material. Bearing cup and body hardness, case depth and core hardness are carefully controlled during the manufacturing process.",
     mafsalP6:
-      "For more information about universal joint kits, please see our product catalogue.",
+      "For more information about universal joint kits, please refer to our product catalogue.",
     montajType: "Universal Joint Kits Executions",
     yagType: "Lubrication Type",
     application: "Application",
@@ -110,16 +110,15 @@ const translations = {
     mafsal13: "Automotive Industry Series Bearing Diameter: Ø15mm - Ø68mm",
     mafsal14: "Industrial Application Series Bearing Diameter: Ø65mm - Ø210mm",
     mafsal15: "Mechanic Series 5C - 15C",
-    mafsalP7:
-      "Needle roller bearings that we produce in our facilities consist of;",
+    mafsalP7: "Needle roller bearings manufactured in our plants consist of:",
     mafsalP8:
-      "The cylindrical outer surface and the inner surfaces where the needles work are ground, the construction is made in a way that provides minimum variation in wall thickness and optimum load distribution, and the bearing cups is made of cold forged and machined DIN 16MnCr5 or SAE 8620 steel material,",
+      "The cylindrical outer surface and the inner surfaces where the needles work are ground, the construction is made in such a way as to provide minimum variation in wall thickness and optimum load distribution, and the bearing cups are made from cold forged and machined DIN 16MnCr5 or SAE 8620 steel material,",
     mafsalP9:
-      "Spring sheet metal washers manufactured from Ck75 steel material in various thicknesses, which prevent the needle rollers from falling during assembly by keeping them in the correct position,",
+      "Spring washers made of Ck75 steel material in various thicknesses, which prevent the needle rollers from falling during assembly by holding them in the correct position,",
     mafsalP10:
       "Protective dust seals against coarse contaminants such as slag, dust, etc.",
     mafsalP11:
-      "Nitrile or Viton seals manufactured to protect the joint cross supported by a steel ring from solid particles and water,",
+      "Nitrile or Viton seals manufactured to protect the joint cross, which is supported by a steel ring, from solid particles and water,",
     mafsalP12:
       "Washers made of polymer material with oil flow channels to absorb axial load shocks,",
     mafsalP13:
@@ -128,19 +127,19 @@ const translations = {
     // Industrial Cardan Shafts
     kardanPart: "Industrial Cardan Shafts and Parts",
     kardanP1:
-      "Thanks to our company experience of over 30 years, the cardan shafts we produce and maintain in our facilities with manufacturing technology that makes the product cost extremely low compared to its quality, offer maximum operating safety, high service life and low operating costs.",
+      "Thanks to more than 30 years of company experience, the cardan shafts that we manufacture and maintain in our plants with manufacturing technology that makes the product cost extremely low in relation to its quality, offer maximum operational safety, long service life and low operating costs. ",
     kardanP2:
-      "With the production technology our company has, we can produce standard products as well as special designs received from our customers. After the welded products are checked, they are balanced according to the G16 DIN ISO 1940 standard and subjected to a lubrication process before painting.",
+      "Our production technology allows us to manufacture both standard products and special designs requested by our customers. After being inspected, the welded products are balanced according to the G16 DIN ISO 1940 standard and undergo a lubrication process before being painted.",
     kardanP3:
-      "Cardan shafts produced by our specialized team that allows us to offer short delivery times are used in cold and hot rolling mills, paper and plastic mills, ships and power plants, mixers, pumps, cranes, conveyor systems, railways, mining and transportation industries, etc.",
+      "Cardan shafts produced by our specialised team, which enables us to offer short delivery times, are used in cold and hot rolling mills, paper and plastic mills, ships and power plants, mixers, pumps, cranes, conveyors, railways, mining and transport industries, etc. ",
     kardanP4:
-      "In order to respond quickly and competitively to customer requirements from design to painting, our company applies the DIN EN ISO 9001:2015 quality management standard in every process of production.",
+      "In order to respond quickly and competitively to customer requirements, from design to painting, our company applies the DIN EN ISO 9001:2015 quality management standard in every production process.",
     kardanP5:
       "We manufacture and maintain fixed and extended cardan shafts. Transmittable torque up to 300kNm and flange diameter up to 390mm can be offered for closed bearing eye cardan shafts, used in mobile sector and general mechanical engineering applications, and split bearing eye cardan shafts, used in heavy duty applications.",
     kardanP6:
-      "Tube and flange yokes are manufactured by forging, casting, or machining method depending on the application. Joint crosses are manufactured from case hardened steels resistant to variable and impact loads by forging method as well as the sliding shaft and sleeve are manufactured from alloyed and unalloyed steels.",
+      "Tube and flange yokes are manufactured by forging, casting or machining depending on the application. Joint crosses are manufactured by forging from case hardened steels resistant to variable and impact loads. The sliding shaft and sleeve are manufactured from alloyed and unalloyed steels. ",
     kardanP7:
-      "For more information on industrial cardan shafts, please see our product catalogue.",
+      "For more information on industrial cardan shafts, please refer to our product catalogue.",
     kardanTitle1: "Cardan Shafts With Closed Bearing Eye Yokes",
     kardanTitle2: "Cardan Shafts With Split Bearing Eye Yokes",
     kardanTitle3: "Short Type Cardan Shafts",
@@ -166,15 +165,15 @@ const translations = {
     kardan16: "Closed Bearing Eye design between Ø72mm-Ø210mm",
     //Tractor
     tractorP1:
-      "Demireller Kardan, whose history dates back to the 1970s, has become one of the leading organizations that manufactures a wide range of original tractor spare parts by focusing on customer satisfaction in addition to automotive spare parts manufacturing. Our company, which has a production facility equipped with the most advanced technology with over 50 years of experience, continues its activities in order to offer the highest quality products and services to its customers.",
+      "Demireller Kardan, whose history dates back to the 1970s, has become one of the leading organizations that manufactures a wide range of original tractor spare parts by focusing on customer satisfaction. Our company, which has a production facility equipped with the most advanced technology and over 50 years of experience, continues its activities to provide the highest quality products and services to its customers.",
     tractorP2:
-      "We carry out the production of tractor spare parts, including forging, welding and machining processes, under the leadership of our dedicated staff, taking into account the ISO EN 9001:2015 quality management system and international standards.",
+      "We manufacture tractor spare parts, including forging, welding and machining, under the guidance of our dedicated staff, taking into account the ISO EN 9001:2015 Quality Management System and international standards.",
     tractorP3:
-      "Our company, which wants to be a solution partner for spare parts production in the agricultural sector, aims to be a spare parts supplier that is appreciated for its employees and performance. Since customer satisfaction is essential, establishing long-term partnerships by providing fast shipping and delivery times has become our priority.",
+      "Our company aims to be a solution partner and spare parts supplier that is valued for its  people and performance. As customer satisfaction is essential, establishing long-term  partnerships by providing fast shipping and delivery times has become our priority.",
     tractorP4:
       "The spare parts manufactured by Demireller Kardan, which has a production facility in Sakarya and employs specialized personnel in its fields, are as follows:",
     tractorP5:
-      "Due to the flexibility in our production line, you can contact us for your similar and different types of product requests.",
+      "Due to the flexibility of our production line, you are welcome to contact us for your requests for both similar and different types of products.",
     tractorTitle1: "Height Adjustable Rear Tow Hook",
     tractorTitle2: "Cardan Shafts",
     tractorTitle3: "Lifting Arm Hook",
@@ -188,17 +187,17 @@ const translations = {
     tractorTitle11: "Connection Console",
     //Hot & Cold Forging
     hotP1:
-      "With over 50 years of experience, Demireller Kardan, whose production facility is located in Sakarya, designs and manufactures forged parts that provide maximum efficiency, durability and reliability for a wide range of industrial applications such as automotive, tractor and heavy industry as well as railway & wagon industry, etc.",
+      "With over 50 years of experience, Demireller Kardan, whose production facility is located in Sakarya, designs and manufactures forged parts that provide maximum efficiency, durability and reliability for a wide range of industrial applications such as automotive, tractor and heavy industry as well as railway & wagon industry, etc",
     hotP2:
-      "Our company, with over 30 specialized employees, produces hot & cold forged parts in a closed area of 5,000 m2 with hydraulic, eccentric, friction presses, induction and annealing furnaces of various capacities and numbers in accordance with international standards to meet the quality requirements of our customers. Our company, which has modern forging equipment, can also provide post-forging machining services with universal and CNC machines when needed.",
+      "Our company, with over 30 specialized employees, produces hot and cold forged parts in a closed area of 5,000 m2 using hydraulic/eccentric/friction presses, induction and annealing furnaces of various capacities and numbers in accordance with international standards to meet the quality requirements of our customers. Our company, which has modern forging equipment, can also provide post-forging machining services with universal and CNC machines if required.",
     hotP3:
-      "All pre-forging and post-forging operations of materials forged from carbon, tempered and cemented steels up to 40 kg are carried out in our facilities, and our needs regarding heat treatment, tempering and normalization processes are met by our partners who have been serving us in this regard for many years under the control of our company.",
+      "All pre- and post-forging operations of materials forged from carbon, tempered and cemented steels up to 40 kg are carried out in our facilities, and our needs regarding heat treatment, tempering and normalizing processes are met by our partners who have been serving us in this regard for many years under the control of our company.",
     hotP4:
-      "Demireller Kardan carries out the design and manufacturing of all forging, burr cutting, molds and apparatus used in production. In order to ensure high product quality, our production line is supported by equipment such as 3D measurement devices, crack control devices, hardness measurement devices, etc.",
+      "Demireller Kardan carries out the design and production of all forging, burr cutting, molds and equipment used in production. In order to ensure high product quality, our production line is supported by equipment such as 3D measuring devices, crack control devices, hardness measuring devices, etc. ",
     hotP5:
-      "Customer-oriented Demireller Kardan, with its comprehensive design, forging, engineering and manufacturing capabilities, applies the DIN EN ISO 9001:2015 quality management standard in all production processes in order to meet high quality expectations.",
+      "Customer-oriented Demireller Kardan, with its comprehensive design, forging, engineering and manufacturing capabilities, applies the DIN EN ISO 9001:2015 quality management standard in all production processes in order to meet high quality expectations. ",
     hotP6:
-      "Our company, which continues its work to provide first-class products by establishing reliable and long-term customer relationships, aims to become a globally recognized company by updating its system according to the latest technology and standards.",
+      "Our company, which continues its work to provide first-class products by establishing reliable and long-term customer relationships, aims to become a globally recognized company by updating its system according to the latest technology and standards. ",
     //Catalogues
     katalogP1:
       'The general contents of our catalogues and brochures are listed in the following sections based on product groups. Click the "DOWNLOAD FILE" button to access the details of the catalogues and brochure you are interested in.',
@@ -223,8 +222,7 @@ const translations = {
     homeP3:
       'The general contents of our catalogues and brochures are listed in the following sections based on product groups. Click the "DOWNLOAD FILE" button to access the details of the catalogues and brochure you are interested in.',
     more: "More",
-    banner:
-      "We look forward to seeing you at our stand in Hall5 B-177 at the Ankiros fair on 19-21 September 2024.",
+    banner: "Welcome Our New Website !",
     collage:
       "With over 50 years of experience, we continue to be your high-quality spare parts partner...",
     sliderMessage:
@@ -454,8 +452,7 @@ const translations = {
     homeP3:
       'Katalog ve Broşürlerimizin genel içerikleri aşağıdaki bölümler içerisinde ürün grubu bazında listelenmiştir. İlgilendiğiniz konuya ait katalog ve broşürün detayına ulaşmak için "DOSYA İNDİR" butonuna basınız.',
     more: "Daha Fazla",
-    banner:
-      "19-21 Eylül 2024 tarihinde Ankiros fuarında Hall5 B-177 standımıza bekleriz",
+    banner: "Yeni Web Sitemize Hoşgeldiniz !",
     collage:
       "50 yılı aşkın tecrübeyle yüksek kaliteli yedek parça ortağınız olmaya devam ediyoruz...",
     sliderMessage:
