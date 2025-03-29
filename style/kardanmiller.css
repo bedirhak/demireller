@@ -28,22 +28,6 @@
   }
 }
 
-/* .dk-miller::after {
-  content: "";
-  width: 95%;
-  opacity: 0.2;
-  position: absolute;
-  top: 600px;
-  right: 0;
-  left: 400px;
-  bottom: 0;
-  z-index: -1; */
-/* background-image: url(../assets/images/miller/milBg.png); */
-/* background-image: url(../assets/images/miller/milBgImage.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center right;
-} */
 .dk-miller::after {
   content: "";
   width: 80%;
@@ -54,7 +38,6 @@
   left: 600px;
   bottom: 0;
   z-index: -1;
-  /* background-image: url(../assets/images/miller/milBg.png); */
   background-image: url(../assets/images/miller/saftBack.png);
   background-size: contain;
   background-repeat: no-repeat;
