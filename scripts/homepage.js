@@ -177,6 +177,7 @@ const preloadImages = (imageUrls) => {
 
 document.addEventListener("DOMContentLoaded", () => {
   preloadImages([
+    //Homepage
     "/assets/images/homepage/banners/1870.jpg",
     "/assets/images/homepage/banners/1961.jpg",
     "/assets/images/homepage/banners/1970.jpg",
@@ -201,11 +202,27 @@ document.addEventListener("DOMContentLoaded", () => {
     "/assets/images/homepage/sSlider2.jpg",
     "/assets/images/homepage/sSlider3.jpg",
     "/assets/images/homepage/sSlider4.jpg",
-    "/assets/images/about/Slider1_.png",
-    "/assets/images/about/Slider2_.png",
-    "/assets/images/about/Slider3_.png",
-    "/assets/images/about/Slider4_.png",
-    "/assets/images/about/Slider5_.png",
+    "/assets/images/homepage/homepageCollage.jpg",
+    "/assets/images/homepage/iconBg1.png",
+    "/assets/images/homepage/iconBg2.png",
+    "/assets/images/homepage/iconBg3.png",
+    //About
+    "/assets/images/about/Slider1.png",
+    "/assets/images/about/Slider2.png",
+    "/assets/images/about/Slider3.png",
+    "/assets/images/about/Slider4.png",
+    "/assets/images/about/Slider5.png",
+    //History
+    "/assets/images/history/tarti.png",
+    "/assets/images/history/osmanDemirel.png",
+    "/assets/images/history/vagon bakım onarım.png",
+    "/assets/images/history/dokuma.png",
+    "/assets/images/history/basakLogo.png",
+    "/assets/images/history/başakLogo.png",
+    "/assets/images/history/yolcu koltukları.png",
+    "/assets/images/history/boji imalatı.png",
+    "/assets/images/history/bilal demirel.png",
+
     // Buraya diğer resimlerin URL'lerini ekleyebilirsin
   ]);
 });
