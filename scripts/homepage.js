@@ -167,3 +167,45 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+const preloadImages = (imageUrls) => {
+  imageUrls.forEach((url) => {
+    const img = new Image();
+    img.src = url;
+  });
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  preloadImages([
+    "/assets/images/homepage/banners/1870.jpg",
+    "/assets/images/homepage/banners/1961.jpg",
+    "/assets/images/homepage/banners/1970.jpg",
+    "/assets/images/homepage/banners/1979.jpg",
+    "/assets/images/homepage/banners/1990.jpg",
+    "/assets/images/homepage/banners/1998.jpg",
+    "/assets/images/homepage/banners/2003.jpg",
+    "/assets/images/homepage/banners/2007.jpg",
+    "/assets/images/homepage/banners/1870en.jpg",
+    "/assets/images/homepage/banners/1961en.jpg",
+    "/assets/images/homepage/banners/1970en.jpg",
+    "/assets/images/homepage/banners/1979en.jpg",
+    "/assets/images/homepage/banners/1990en.jpg",
+    "/assets/images/homepage/banners/1998en.jpg",
+    "/assets/images/homepage/banners/2003en.jpg",
+    "/assets/images/homepage/banners/2007en.jpg",
+    "/assets/images/homepage/slider1.jpg",
+    "/assets/images/homepage/slider2.jpg",
+    "/assets/images/homepage/slider3.jpg",
+    "/assets/images/homepage/slider4.jpg",
+    "/assets/images/homepage/sSlider1.jpg",
+    "/assets/images/homepage/sSlider2.jpg",
+    "/assets/images/homepage/sSlider3.jpg",
+    "/assets/images/homepage/sSlider4.jpg",
+    "/assets/images/about/Slider1_.png",
+    "/assets/images/about/Slider2_.png",
+    "/assets/images/about/Slider3_.png",
+    "/assets/images/about/Slider4_.png",
+    "/assets/images/about/Slider5_.png",
+    // Buraya diğer resimlerin URL'lerini ekleyebilirsin
+  ]);
+});

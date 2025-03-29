@@ -9,6 +9,22 @@
   }
 }
 
+.about .carousel-item:nth-of-type(1) {
+  background-image: url(../assets/images/about/Slider1_.png);
+}
+
+.about .carousel-item:nth-of-type(2) {
+  background-image: url(../assets/images/about/Slider2_1.png);
+}
+
+.about .carousel-item:nth-of-type(3) {
+  background-image: url(../assets/images/about/Slider3_1.png);
+}
+
+.about .carousel-item:nth-of-type(4) {
+  background-image: url(../assets/images/about/Slider4_1.png);
+}
+
 .dk-about .slider-message {
   text-align: left;
 }
