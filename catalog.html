@@ -33,10 +33,13 @@
     <script src="./scripts/slider.js"></script>
     <script src="./scripts/homepage.js"></script>
     <script src="./scripts/mafsal.js"></script>
+    <script src="./scripts/config.js"></script>
+    <script defer src="./scripts/script.js"></script>
+
 
 </head>
 
-<body id="dk-body" class="dk-mafsal">
+<body id="dk-body" class="dk-catalog">
     <div class="dk-top">
         <header class="dk-header">
             <div class="logo">
@@ -47,7 +50,8 @@
                     <i class="fa-solid fa-globe"></i>
                 </div>
                 <ul class="languages-list">
-                    <li>TR</li>
+                    <li class="dk-lang-tr dk-selected-lang" data-lang-code="tr">TR</li>
+                    <li class="dk-lang-en" data-lang-code="en">EN</li>
                 </ul>
             </div>
         </header>
@@ -57,41 +61,38 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ana Sayfa </a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" data-lang="menuHome"></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Kurumsal
+                        <a class="nav-link dropdown-toggle" data-lang="menuCorporate" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="about.html">Hakkımızda</a>
-                            <a class="dropdown-item" href="history.html">Tarihçe</a>
-                            <a class="dropdown-item" href="quality.html">Kalite</a>
-                            <a class="dropdown-item" href="worldWide.html">Dış Pazarlar</a>
+                            <a class="dropdown-item" data-lang="menuAbout" href="about.html"></a>
+                            <a class="dropdown-item" data-lang="menuHistory" href="history.html"></a>
+                            <a class="dropdown-item" data-lang="menuQuality" href="quality.html"></a>
+                            <a class="dropdown-item" data-lang="menuWorldwide" href="worldWide.html"></a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Ürünler
+                        <a class="nav-link dropdown-toggle" data-lang="menuProduct" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="mafsalIstafroz.html">Mafsal İstavrozlar</a>
-                            <a class="dropdown-item" href="kardanMiller.html">Endüstriyel Kardan Miller</a>
-                            <a class="dropdown-item" href="traktor.html">Traktör Yedek Parçaları</a>
-                            <a class="dropdown-item" href="hotCold.html">Sıcak & Soğuk Dövme</a>
+                            <a class="dropdown-item" data-lang="menuMafsal" href="mafsalIstafroz.html"></a>
+                            <a class="dropdown-item" data-lang="menuKardan" href="kardanMiller.html"></a>
+                            <a class="dropdown-item" data-lang="menuTractor" href="traktor.html"></a>
+                            <a class="dropdown-item" data-lang="menuHot" href="hotCold.html"></a>
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link active" href="catalog.html">Katalog ve Broşürler </a>
+                        <a class="nav-link" data-lang="menuCatalog" href="catalog.html"> </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">İletişim </a>
+                        <a class="nav-link" data-lang="menuContact" href="contact.html"> </a>
                     </li>
                 </ul>
             </div>
@@ -100,18 +101,19 @@
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="slider-message">
-            <p>Katalog ve Broşürler</p>
+            <p data-lang="menuCatalog"></p>
         </div>
 
         <div class="slider-icons">
-            <div class="slider-mail"><a href="#"><i class="fa-solid fa-envelope"></i></a></div>
-            <div class="slider-mail"><a href="#"><i class="fa-solid fa-download"></i></a></div>
+            <div class="slider-mail"><a href="contact.html"><i class="fa-solid fa-envelope"></i></a></div>
+            <div class="slider-mail"><a href="catalog.html"><i class="fa-solid fa-download"></i></a></div>
         </div>
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -119,6 +121,9 @@
             </div>
             <div class="carousel-item">
                 <!-- <img class="d-block w-100" src="./assets/images/hpSlider2.jpg" alt="Second slide"> -->
+            </div>
+            <div class="carousel-item">
+                <!-- <img class="d-block w-100" src="./assets/images/hpSlider3.jpg" alt="Third slide"> -->
             </div>
             <div class="carousel-item">
                 <!-- <img class="d-block w-100" src="./assets/images/hpSlider3.jpg" alt="Third slide"> -->
@@ -140,39 +145,38 @@
     </div>
 
     <div class="dk-catalog-container">
-        <p class="dk-quality-paragraph">
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            Katalog ve Broşürlerimizin genel içerikleri aşağıdaki bölümler içerisinde ürün grubu bazında listelenmiştir.
-            İlgilendiğiniz konuya ait katalog ve broşürün detayına ulaşmak için "DOSYA İNDİR" butonuna basınız.
-        </p>
+        <p class="dk-quality-paragraph" data-lang="katalogP1"></p>
         <div class="dk-mafsal-content">
-            <div class="dk-mafsal-title"><i class="fa-solid fa-chevron-right"></i>Ürün Katalogları</div>
+            <div class="dk-mafsal-title"><i class="fa-solid fa-chevron-right"></i><span
+                    data-lang="productCatalogue"></span></div>
             <div class="dk-catalog-download-container">
-                <h5>Mafsal İstavrozları Kataloğu</h5>
-                <a href=""><i class="fa-solid fa-download"></i></a>
+                <h5 data-lang="mafsalKatalog"></h5>
+                <a href="./assets/images/catalog/mafsalKatalog.pdf" download><i class="fa-solid fa-download"></i></a>
                 <img src="assets/images/catalog/catalog1.png" alt="">
             </div>
             <div class="dk-catalog-download-container dk-margin-bottom-50">
-                <h5>Endüstriyel Kardan Milleri Kataloğu</h5>
-                <a href=""><i class="fa-solid fa-download"></i></a>
+                <h5 data-lang="kardanKatalog"></h5>
+                <a href="./assets/images/catalog/kardanMilKatalog.pdf" download><i class="fa-solid fa-download"></i></a>
                 <img src="assets/images/catalog/catalog2.png" alt="">
             </div>
-            <div class="dk-mafsal-title"><i class="fa-solid fa-chevron-right"></i>Broşürler</div>
+            <div class="dk-mafsal-title"><i class="fa-solid fa-chevron-right"></i><span data-lang="brochure"></span>
+            </div>
             <div class="dk-catalog-download-container">
-                <h5>Firma Tanıtım Kataloğu</h5>
-                <a href=""><i class="fa-solid fa-download"></i></a>
+                <h5 data-lang="companyIntro"></h5>
+                <a href="./assets/images/catalog/catalogTanıtım.pdf" download><i class="fa-solid fa-download"></i></a>
                 <img src="assets/images/catalog/catalog3.png" alt="">
             </div>
             <div class="dk-catalog-download-container dk-margin-bottom-50">
-                <h5>Traktör Yedek Parçaları Broşürü</h5>
-                <a href=""><i class="fa-solid fa-download"></i></a>
+                <h5 data-lang="katalogTractor"></h5>
+                <a href="./assets/images/catalog/traktorKatolog.pdf" download><i class="fa-solid fa-download"></i></a>
                 <img src="assets/images/catalog/catalog4.png" alt="">
             </div>
-            <div class="dk-mafsal-title"><i class="fa-solid fa-chevron-right"></i>Sertifikalar</div>
+            <div class="dk-mafsal-title"><i class="fa-solid fa-chevron-right"></i><span data-lang="sertifika"></span>
+            </div>
             <div class="dk-catalog-download-container dk-margin-bottom-50">
                 <h5>ISO 9001:2015</h5>
-                <a href=""><i class="fa-solid fa-download"></i></a>
-                <img src="assets/images/catalog/catalog5.png" alt="">
+                <a href="./assets/images/catalog/iso.pdf" download><i class="fa-solid fa-download"></i></a>
+                <img src="assets/images/catalog/isoLogo.jpg" alt="">
             </div>
 
         </div>
@@ -182,31 +186,30 @@
 
     <footer class="dk-footer">
         <div class="dk-footer-container">
-
             <div class="dk-footer-logo">
                 <img src="assets/images/logoDikey.png" alt="Demireller Logo">
             </div>
             <div class="dk-footer-contact">
-                <h6 class="dk-footer-heading dk-main-blue">İletişim</h6>
-                <p class="dk-footer-address">Hanlı Merkez Mahallesi Hanlı / 1 Nolu Sokak No: 80/A 54580 Arifiye/Sakarya
+                <h6 class="dk-footer-heading dk-main-blue" data-lang="menuContact"></h6>
+                <p class="dk-footer-address">Hanlı Merkez Mahallesi Hanlı / 1 Nolu Sokak No: 80/A 54580 Arifiye/Sakarya,
+                    Türkiye
                 </p>
                 <div class="dk-footer-contact">
-                    <p>Telefon: +90 (264) 666 1911</p>
-                    <p>Telefon: +90 (264) 275 1244</p>
-                    <p>Fax: +90 (264) 275 1538</p>
-                    <p>E-Posta: <a href="mailto:info@demirellerkardan.com.tr"><span
+                    <p><span data-lang="phone"></span>: +90 (264) 666 1911</p>
+                    <p><span data-lang="fax"></span>: +90 (264) 666 1910</p>
+                    <p><span data-lang="email"></span>: <a href="mailto:info@demirellerkardan.com.tr"><span
                                 class="dk-main-blue dk-footer-main">info@demirellerkardan.com.tr</span></a></p>
                 </div>
             </div>
             <div class="dk-footer-products">
-                <h6 class="dk-footer-heading dk-main-blue">Ürünler</h6>
+                <h6 class="dk-footer-heading dk-main-blue" data-lang="menuProduct"></h6>
                 <ul>
-                    <li class="dk-footer-links"><a href="#">Mafsal İstavrozları</a></li>
-                    <li class="dk-footer-links"><a href="#">Endüstriyel Kardan Milleri</a></li>
-                    <li class="dk-footer-links"><a href="#">Traktör Yedek Parçaları</a></li>
-                    <li class="dk-footer-links"><a href="#">Sıcak & Soğuk Dövme</a></li>
+                    <li class="dk-footer-links"><a href="mafsalIstafroz.html" data-lang="menuMafsal"></a></li>
+                    <li class="dk-footer-links"><a href="kardanMiller.html" data-lang="menuKardan"></a></li>
+                    <li class="dk-footer-links"><a href="traktor.html" data-lang="menuTractor"></a></li>
+                    <li class="dk-footer-links"><a href="hotCold.html" data-lang="menuHot"></a>
+                    </li>
                 </ul>
-
             </div>
             <div class="dk-footer-social">
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -214,15 +217,9 @@
                 <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                 <i class="fa-solid fa-circle"></i>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-
             </div>
-
             <a title="Başa Dön" class="dk-go-top" href="#dk-body"><i class="fa-solid fa-square-caret-up"></i> </a>
-
         </div>
-
-
-
     </footer>
 
 

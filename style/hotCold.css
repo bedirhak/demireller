@@ -1,3 +1,46 @@
+.dk-hot-cold {
+  .carousel-item:nth-of-type(1) {
+    background-image: url(../assets/images/hotCold/slider1.jpg) !important;
+  }
+
+  .carousel-item:nth-of-type(2) {
+    background-image: url(../assets/images/hotCold/slider2.jpg);
+  }
+
+  .carousel-item:nth-of-type(3) {
+    background-image: url(../assets/images/hotCold/slider3.jpg);
+  }
+  .carousel-item:nth-of-type(4) {
+    background-image: url(../assets/images/hotCold/slider4.jpg);
+  }
+}
+
+.dk-hot-cold-main {
+  position: relative;
+}
+
+.dk-hot-cold-main::after {
+  content: "";
+  opacity: 0.3; /* Set the opacity for the background image */
+  transform: rotate(-25deg);
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 150px;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../assets/images/hotCold/hotColdBg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+@media (max-width: 1300px) {
+  .dk-hot-cold-main::after {
+    display: none;
+  }
+}
+
 .dk-hot-cold-slider-container > p {
   width: 55%;
 }

@@ -33,6 +33,9 @@
     <script src="./scripts/slider.js"></script>
     <script src="./scripts/homepage.js"></script>
     <script src="./scripts/quality.js"></script>
+    <script src="./scripts/config.js"></script>
+    <script defer src="./scripts/script.js"></script>
+
 
 </head>
 
@@ -47,7 +50,8 @@
                     <i class="fa-solid fa-globe"></i>
                 </div>
                 <ul class="languages-list">
-                    <li>TR</li>
+                    <li class="dk-lang-tr dk-selected-lang" data-lang-code="tr">TR</li>
+                    <li class="dk-lang-en" data-lang-code="en">EN</li>
                 </ul>
             </div>
         </header>
@@ -57,41 +61,38 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ana Sayfa </a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" data-lang="menuHome"></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Kurumsal
+                        <a class="nav-link dropdown-toggle" data-lang="menuCorporate" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="about.html">Hakkımızda</a>
-                            <a class="dropdown-item" href="history.html">Tarihçe</a>
-                            <a class="dropdown-item active" href="quality.html">Kalite</a>
-                            <a class="dropdown-item" href="worldWide.html">Dış Pazarlar</a>
+                            <a class="dropdown-item" data-lang="menuAbout" href="about.html"></a>
+                            <a class="dropdown-item" data-lang="menuHistory" href="history.html"></a>
+                            <a class="dropdown-item" data-lang="menuQuality" href="quality.html"></a>
+                            <a class="dropdown-item" data-lang="menuWorldwide" href="worldWide.html"></a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Ürünler
+                        <a class="nav-link dropdown-toggle" data-lang="menuProduct" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="mafsalIstafroz.html">Mafsal İstavrozlar</a>
-                            <a class="dropdown-item" href="kardanMiller.html">Endüstriyel Kardan Miller</a>
-                            <a class="dropdown-item" href="traktor.html">Traktör Yedek Parçaları</a>
-                            <a class="dropdown-item" href="hotCold.html">Sıcak & Soğuk Dövme</a>
+                            <a class="dropdown-item" data-lang="menuMafsal" href="mafsalIstafroz.html"></a>
+                            <a class="dropdown-item" data-lang="menuKardan" href="kardanMiller.html"></a>
+                            <a class="dropdown-item" data-lang="menuTractor" href="traktor.html"></a>
+                            <a class="dropdown-item" data-lang="menuHot" href="hotCold.html"></a>
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="catalog.html">Katalog ve Broşürler </a>
+                        <a class="nav-link" data-lang="menuCatalog" href="catalog.html"> </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">İletişim </a>
+                        <a class="nav-link" data-lang="menuContact" href="contact.html"> </a>
                     </li>
                 </ul>
             </div>
@@ -100,12 +101,12 @@
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="slider-message">
-            <p>Kalite</p>
+            <p data-lang="menuQuality"></p>
         </div>
 
         <div class="slider-icons">
-            <div class="slider-mail"><a href="#"><i class="fa-solid fa-envelope"></i></a></div>
-            <div class="slider-mail"><a href="#"><i class="fa-solid fa-download"></i></a></div>
+            <div class="slider-mail"><a href="contact.html"><i class="fa-solid fa-envelope"></i></a></div>
+            <div class="slider-mail"><a href="catalog.html"><i class="fa-solid fa-download"></i></a></div>
         </div>
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -145,80 +146,42 @@
 
         <div class="dk-quality-paragraphs">
 
-            <p class="dk-quality-paragraph">
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                Demireller Kardan kendi alanında en güvenilir kurumlar arasında yer almayı yönetim politikasının en
-                temel
-                prensibi olarak benimsemiştir. Firmamızın birincil ilkesi sınırsız rekabet orta mı içinde, yasalar ve
-                standartlardan şaşmadan, sürekli gelişmeyi esas alarak, müşteri memnuniyeti odaklı eğitimli personeli
-                ile
-                en iyi mamul ve hizmeti zamanında müşteriye sunabilmektir.
-            </p>
-            <p class="dk-quality-paragraph">
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                Demireller Kardan, ürün ve hizmetlerin etkin olarak müşteri ihtiyaç ve beklentilerini karşılamak,
-                ilgili
-                yasal düzenlemelere uyarak sürekli iyileştirme ve kaynaklarımızın doğru, etkili ve verimli bir biçimde
-                kullanılmasını temin etmek amacıyla dizayn, imalat, ve test faaliyetlerini uluslararası standartlara
-                göre
-                gerçekleştirmekte, üretimin her safhasında TS-EN-ISO 9001: 2015 standardını uygulamaktadır.
-            </p>
-            <p class="dk-quality-paragraph">
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                Verimliliği, etkinliği, üretkenliği, ve kaliteyi en ön planda tutmak önceliklerimizdendir. Tüm iletişim
-                araçlarını sonuna kadar kullanarak, şeffaf, modern, ve dinamik bir yapıda faaliyetlerimizi sürdürmemize
-                vesile olacak tüm çalışanlarımızın aktif bir parçası olduğu organizasyon modeliyle kalitenin sürekli
-                iyileştirilmesi ve uygunsuzluklar olmaksızın ürün tedariği garanti edilmekte ve sürdürülmektedir.
-            </p>
-            <p class="dk-quality-paragraph">
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                Müşteri memnuniyetinin önem ve bilinci içinde ürün kalitesinin ve güvenilirliğinin ürün ömrü boyunca
-                sürdürülmesini sağlamak amacıyla Ar-Ge departmanımız CAD/CAM teknolojisiyle ve kalite kontrol
-                departmanımız
-                birincil ölçüm cihazlarıyla donatılmıştır. Üretimde kullanılan tüm kalıp ve aparatların imalatı firma
-                bünyesinde gerçekleştirilmektedir.
-            </p>
-            <p class="dk-quality-paragraph">
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                Tüm paydaşlarımızla iş ortağı olarak çalışan, en son teknolojiyi takip ederek yüksek kaliteli üretim
-                sistemlerine ve çevreye saygıya uygun çalışma koşullarına yatırım yapan bir firma olarak verdiğimiz
-                hiçbir
-                sözden taviz vermeden ülke ekonomisine katkıda bulunmaya devam edeceğiz.
-            </p>
+            <p class="dk-quality-paragraph" data-lang="qualityP1"></p>
+            <p class="dk-quality-paragraph" data-lang="qualityP2"></p>
+            <p class="dk-quality-paragraph" data-lang="qualityP3"></p>
+            <p class="dk-quality-paragraph" data-lang="qualityP4"></p>
+            <p class="dk-quality-paragraph" data-lang="qualityP5"></p>
 
         </div>
 
     </div>
 
-
-
     <footer class="dk-footer">
         <div class="dk-footer-container">
-
             <div class="dk-footer-logo">
                 <img src="assets/images/logoDikey.png" alt="Demireller Logo">
             </div>
             <div class="dk-footer-contact">
-                <h6 class="dk-footer-heading dk-main-blue">İletişim</h6>
-                <p class="dk-footer-address">Hanlı Merkez Mahallesi Hanlı / 1 Nolu Sokak No: 80/A 54580 Arifiye/Sakarya
+                <h6 class="dk-footer-heading dk-main-blue" data-lang="menuContact"></h6>
+                <p class="dk-footer-address">Hanlı Merkez Mahallesi Hanlı / 1 Nolu Sokak No: 80/A 54580 Arifiye/Sakarya,
+                    Türkiye
                 </p>
                 <div class="dk-footer-contact">
-                    <p>Telefon: +90 (264) 666 1911</p>
-                    <p>Telefon: +90 (264) 275 1244</p>
-                    <p>Fax: +90 (264) 275 1538</p>
-                    <p>E-Posta: <a href="mailto:info@demirellerkardan.com.tr"><span
+                    <p><span data-lang="phone"></span>: +90 (264) 666 1911</p>
+                    <p><span data-lang="fax"></span>: +90 (264) 666 1910</p>
+                    <p><span data-lang="email"></span>: <a href="mailto:info@demirellerkardan.com.tr"><span
                                 class="dk-main-blue dk-footer-main">info@demirellerkardan.com.tr</span></a></p>
                 </div>
             </div>
             <div class="dk-footer-products">
-                <h6 class="dk-footer-heading dk-main-blue">Ürünler</h6>
+                <h6 class="dk-footer-heading dk-main-blue" data-lang="menuProduct"></h6>
                 <ul>
-                    <li class="dk-footer-links"><a href="mafsalIstafroz.html">Mafsal İstavrozları</a></li>
-                    <li class="dk-footer-links"><a href="#">Endüstriyel Kardan Milleri</a></li>
-                    <li class="dk-footer-links"><a href="#">Traktör Yedek Parçaları</a></li>
-                    <li class="dk-footer-links"><a href="#">Sıcak & Soğuk Dövme</a></li>
+                    <li class="dk-footer-links"><a href="mafsalIstafroz.html" data-lang="menuMafsal"></a></li>
+                    <li class="dk-footer-links"><a href="kardanMiller.html" data-lang="menuKardan"></a></li>
+                    <li class="dk-footer-links"><a href="traktor.html" data-lang="menuTractor"></a></li>
+                    <li class="dk-footer-links"><a href="hotCold.html" data-lang="menuHot"></a>
+                    </li>
                 </ul>
-
             </div>
             <div class="dk-footer-social">
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -226,17 +189,10 @@
                 <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                 <i class="fa-solid fa-circle"></i>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-
             </div>
-
             <a title="Başa Dön" class="dk-go-top" href="#dk-body"><i class="fa-solid fa-square-caret-up"></i> </a>
-
         </div>
-
-
-
     </footer>
-
 
 </body>
 

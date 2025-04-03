@@ -15,7 +15,7 @@
 }
 
 .dk-world-wide .dk-single-banner {
-  background-image: url(../assets/images/worldWide/worldWideBanner.png);
+  background-image: url(../assets/images/worldWide/worldWideBanner.png) !important;
 }
 
 .dk-world-wide-image {

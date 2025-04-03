@@ -1,6 +1,54 @@
 .dk-miller .slider-message {
   text-align: left;
 }
+.dk-miller-text-heading {
+  font-size: 1.3rem;
+}
+
+.dk-miller {
+  overflow-x: hidden;
+
+  .carousel-item:nth-of-type(1) {
+    background-image: url(../assets/images/miller/slider1.jpg) !important;
+  }
+
+  .carousel-item:nth-of-type(2) {
+    background-image: url(../assets/images/miller/slider2.jpg);
+  }
+
+  .carousel-item:nth-of-type(3) {
+    background-image: url(../assets/images/miller/slider3.jpg);
+  }
+
+  .carousel-item:nth-of-type(4) {
+    background-image: url(../assets/images/miller/slider4.jpg);
+  }
+  .carousel-item:nth-of-type(5) {
+    background-image: url(../assets/images/miller/slider5.jpg);
+  }
+}
+
+.dk-miller::after {
+  content: "";
+  width: 80%;
+  opacity: 0.2;
+  position: absolute;
+  top: 500px;
+  right: 0;
+  left: 600px;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../assets/images/miller/saftBack.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+@media only screen and (max-width: 1300px) {
+  .dk-miller::after {
+    display: none;
+  }
+}
 
 .dk-miller .dk-mafsal-tabs {
   justify-content: flex-start;
@@ -12,14 +60,14 @@
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  gap: 50px;
+  gap: 75px;
   margin-bottom: 15px;
 }
 
 .dk-miller-image {
   display: flex;
   justify-content: space-around;
-  width: 35%;
+  width: 45%;
   max-height: 200px;
   background-color: #ede8ea;
   padding: 15px 50px;
@@ -51,7 +99,7 @@
 }
 
 .dk-miller .dk-miller-image-column img:first-of-type {
-  max-width: 85%;
+  max-width: 60%;
 }
 
 .dk-miller-text-heading {
@@ -62,7 +110,7 @@
 }
 
 .dk-miller-miller-list {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--main-gray);
 }
 

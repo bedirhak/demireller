@@ -2,6 +2,58 @@
   text-align: left;
 }
 
+.dk-mafsal {
+  overflow-x: hidden;
+  .carousel-item:nth-of-type(1) {
+    background-image: url(../assets/images/mafsal/slider1.jpg) !important;
+  }
+
+  .carousel-item:nth-of-type(2) {
+    background-image: url(../assets/images/mafsal/slider2.jpg);
+  }
+
+  .carousel-item:nth-of-type(3) {
+    background-image: url(../assets/images/mafsal/slider3.jpg);
+  }
+
+  .carousel-item:nth-of-type(4) {
+    background-image: url(../assets/images/mafsal/slider4.jpg);
+  }
+  .carousel-item:nth-of-type(5) {
+    background-image: url(../assets/images/mafsal/slider5.jpg);
+  }
+}
+
+.dk-mafsal::after {
+  content: "";
+  width: 55%;
+  opacity: 0.15;
+  position: absolute;
+  top: 450px;
+  right: 0;
+  left: 57%;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(../assets/images/mafsal/mafsalBack.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+@media only screen and (max-width: 1300px) {
+  .dk-mafsal::after {
+    display: none;
+  }
+}
+
+.dk-mafsal:has(.bg-tab1.dk-active-tab)::after {
+  top: 690px;
+}
+
+.dk-mafsal:has(.bg-tab3.dk-active-tab)::after {
+  top: 660px;
+}
+
 .dk-mafsal-container {
   width: 1200px;
   margin: 0 auto;
@@ -71,7 +123,6 @@
 
 .dk-mafsal-tab2-image {
   border: 1px solid black;
-  border-radius: 25px;
   overflow: hidden;
   padding: 25px;
   margin-bottom: 25px;
@@ -79,6 +130,96 @@
 
 .dk-mafsal-tab2-image img {
   width: 100%;
+}
+
+.dk-mafsal-montaj-image-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 16px;
+  margin-bottom: 25px;
+}
+
+.dk-montaj-tipi-each {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 150px;
+}
+
+.dk-montaj-tipi-each {
+  max-width: 15%;
+}
+
+.dk-montaj-tipi-image {
+  text-align: center;
+}
+
+.dk-montaj-tipi-image img {
+  width: 140px;
+  height: 125px;
+}
+
+.dk-montaj-tipi-text {
+  font-size: 22px;
+  color: var(--main-gray);
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  width: 80%;
+}
+
+.dk-yaglama .dk-montaj-tipi-text {
+  width: 100%;
+}
+
+.dk-mafsal-uygulama {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dk-mafsal-uygulama > .dk-mafsal-uygulama-container {
+  border: 1px solid black;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 35%;
+}
+
+.dk-mafsal-uygulama > .dk-mafsal-uygulama-container:nth-of-type(3) {
+  width: 20%;
+
+  .dk-mafsal-uygulama-images {
+    justify-content: center;
+  }
+}
+
+.dk-mafsal-uygulama-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.dk-mafsal-uygulama-images > div {
+  width: 140px;
+}
+
+.dk-mafsal-uygulama-images > div > img {
+  width: 100%;
+}
+
+.dk-mafsal-uygulama-container h6 {
+  font-size: 22px;
+  color: var(--main-gray);
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-weight: 400;
 }
 
 /* Tab 3 */
@@ -137,6 +278,25 @@
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .dk-mafsal-uygulama {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .dk-mafsal-uygulama > .dk-mafsal-uygulama-container {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .dk-mafsal-title {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .dk-mafsal-content {
     text-align: center;
@@ -144,12 +304,6 @@
   .dk-mafsal-tab {
     font-size: 16px;
     padding: 5px;
-  }
-
-  .dk-mafsal-title {
-    font-size: 16px;
-    width: 100%;
-    margin-bottom: 15px;
   }
 
   .dk-mafsal-tab2-image-container {
@@ -171,5 +325,16 @@
 
   .dk-mafsal-tab3-paragraph {
     text-align: center;
+  }
+
+  .dk-mafsal-montaj-image-container {
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto 25px auto;
+  }
+
+  .dk-mafsal-uygulama-images {
+    flex-direction: column;
+    gap: 1rem;
   }
 }

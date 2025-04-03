@@ -1,3 +1,18 @@
+.dk-about {
+  .carousel-item {
+    background: none;
+  }
+
+  .carousel-inner {
+    max-height: 645px;
+    height: auto;
+  }
+}
+
+.about .carousel-item {
+  background: none !important;
+}
+
 .dk-about .slider-message {
   text-align: left;
 }
@@ -9,7 +24,7 @@
 
 .dk-about-text-image {
   display: flex;
-  gap: 50px;
+  gap: 25px;
 }
 
 .dk-about-paragraph {
@@ -25,21 +40,35 @@
 }
 
 .dk-about-image img {
-  width: 330px;
+  width: 300px;
   display: inline-block;
   margin-bottom: 5px;
   border: 5px solid #eee9eb;
+  border-radius: 4px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
   .dk-about-text {
     width: 100%;
+  }
+
+  .slider-message p {
+    font-family: "Oxanium", sans-serif;
+    background-color: rgba(150, 150, 150, 0.7);
+    padding: 0 45px;
+    height: unset;
   }
 }
 
 @media only screen and (max-width: 930px) {
   .dk-about-text {
     width: 96%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .dk-about {
+    text-align: unset;
   }
 }
 
@@ -55,6 +84,31 @@
 
   .dk-about-text {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .slider-message {
+    width: unset;
+    right: 10%;
+    width: 80%;
+    text-align: center;
+    bottom: 10px;
+  }
+  .slider-message p {
+    font-size: 16px;
+    padding: 5px;
+    text-align: center !important;
+    justify-content: center;
+  }
+
+  .slider-icons > div {
+    width: 30px;
+    height: 30px;
+  }
+
+  .carousel-control i {
+    font-size: 30px;
   }
 }
 
