@@ -1,15 +1,15 @@
-@import url(settings.css);
-@import url(contact.css);
-@import url(catalog.css);
-@import url(hotCold.css);
-@import url(traktor.css);
-@import url(kardanmiller.css);
+@import url(homepage.css);
+@import url(about.css);
+@import url(quality.css);
 @import url(history.css);
 @import url(mafsalIstavrozlar.css);
+@import url(traktor.css);
+@import url(kardanmiller.css);
+@import url(hotCold.css);
 @import url(worldWide.css);
-@import url(quality.css);
-@import url(about.css);
-@import url(homepage.css);
+@import url(catalog.css);
+@import url(contact.css);
+@import url(settings.css);
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap");
